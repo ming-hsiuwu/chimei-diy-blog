@@ -55,6 +55,12 @@ type: project
   - **一手來源涵蓋**：FDA 21 CFR、USDA AMS/FSIS、衛福部食藥署、勞動部技能檢定中心、法國藍帶、Ferrandi、Pierre Hermé、King Arthur Baking、Serious Eats、Nielsen-Massey、Valrhona/Callebaut 官方等
   - **剩 40 篇**：清單已定（見歷史 Jan–Apr 對話），待第二階段生產
 - 2026-04-24：**規則補充**：JSX 內避免在 `<li>` 裡直接用 `>` 符號（會被 parser 誤認標籤），改寫「超過」或 `&gt;`。
+- 2026-04-24：**虛構內容嚴格禁止規則**（使用者明確強調兩次）：若棋美官網／services.md 沒列出的產品或服務，**文章內文與 relatedProducts 都禁止提及**。特別地：
+  - 禁止「到棋美 / 現場 / 體驗 / 選購 / 試用」棋美沒販售品項的句子
+  - 禁止編造具體課程名（如「棋美點心屋新手入門烘焙課」）— 統一用「棋美烘焙教學（小班制）」泛化名稱
+  - 禁止編造沒賣的服務（諮詢、組合包、批發配送、團體班、顧問式推薦等）
+  - 具體進口品牌限常見款（Elle & Vire、PRÉSIDENT、Valrhona、Callebaut、Philadelphia、日清山茶花、SAF、Clabber Girl 等烘焙圈通認品項）
+  - 大型電器（烤箱、攪拌機、食物調理機等）一律**不列 relatedProducts**
 - 2026-04-24：**全域規則同步**（CLAUDE.md 更新）：所有時間溝通採 UTC+8、回報時自動換算。
 
 ## 外部資源

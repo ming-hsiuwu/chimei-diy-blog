@@ -100,12 +100,11 @@ export default function TartGuide() {
       </ul>
 
       <p>
-        如果你正在為甜點工作室找穩定供應的冷凍塔皮、果泥、或想直接批次採購半成品原料，歡迎{" "}
-        <a href="https://line.me/R/ti/p/@diy_chimei" target="_blank" rel="noopener noreferrer">
-          加 LINE @diy_chimei
-        </a>{" "}
-        告訴我們出貨頻率與規格需求。延伸閱讀推薦{" "}
-        <Link href="/zh/articles/how-to-choose-flour-for-beginners">新手挑麵粉完整指南</Link>，塔皮的成敗從麵粉選擇就已經開始。
+        延伸閱讀推薦{" "}
+        <Link href="/zh/articles/how-to-choose-flour-for-beginners" className="text-brand hover:underline">
+          新手挑麵粉完整指南
+        </Link>
+        ，塔皮的成敗從麵粉選擇就已經開始。
       </p>
 
       <p className="text-xs text-foreground/60">

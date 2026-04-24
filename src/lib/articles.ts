@@ -298,13 +298,6 @@ export const articles: ArticleMeta[] = [
       { id: "first-recipes", label: "5 個最適合初次的配方" },
       { id: "cleanup", label: "親子清潔分工" },
     ],
-    relatedProducts: [
-      {
-        title: "棋美點心屋親子烘焙課（6 歲以上）",
-        description: "適合親子共同操作的小班制課程，含材料包與安全講解。",
-        link: "https://line.me/R/ti/p/@diy_chimei",
-      },
-    ],
     faq: [
       {
         question: "幾歲開始可以一起做烘焙？",
@@ -895,8 +888,8 @@ export const articles: ArticleMeta[] = [
     ],
     relatedProducts: [
       {
-        title: "棋美點心屋實體小班制課程",
-        description: "4–6 人小班、一人一組設備、課後 LINE 諮詢，最適合建立手感。",
+        title: "棋美烘焙教學（小班制）",
+        description: "從新手入門到進階技術的小班制烘焙課程，依 LINE 公告報名。",
         link: "https://line.me/R/ti/p/@diy_chimei",
       },
     ],
@@ -944,13 +937,8 @@ export const articles: ArticleMeta[] = [
     ],
     relatedProducts: [
       {
-        title: "棋美點心屋企業下午茶甜點餐盒",
-        description: "客製化甜點／麵包餐盒，適用下午茶、會議點心、活動禮盒。",
-        link: "https://line.me/R/ti/p/@diy_chimei",
-      },
-      {
-        title: "烘焙原料量販規格批發",
-        description: "為工作室與店家提供進口原料量販，降低單位成本。",
+        title: "棋美甜點／麵包企業餐盒",
+        description: "客製化甜點與麵包餐盒，適用下午茶、會議點心、活動禮盒。",
         link: "https://line.me/R/ti/p/@diy_chimei",
       },
     ],
@@ -1215,8 +1203,8 @@ export const articles: ArticleMeta[] = [
     ],
     relatedProducts: [
       {
-        title: "棋美點心屋新手入門烘焙課",
-        description: "從餅乾、磅蛋糕到基礎麵包的階梯式課程，4–6 人小班。",
+        title: "棋美烘焙教學（小班制）",
+        description: "從新手入門到進階技術的小班制烘焙課程，依 LINE 公告報名。",
         link: "https://line.me/R/ti/p/@diy_chimei",
       },
     ],
@@ -1522,8 +1510,8 @@ export const articles: ArticleMeta[] = [
     ],
     relatedProducts: [
       {
-        title: "棋美點心屋小班制烘焙課",
-        description: "4–6 人小班、一人一組獨立設備、課後 LINE 諮詢。",
+        title: "棋美烘焙教學（小班制）",
+        description: "從新手入門到進階技術的小班制烘焙課程，依 LINE 公告報名。",
         link: "https://line.me/R/ti/p/@diy_chimei",
       },
     ],
@@ -1829,13 +1817,8 @@ export const articles: ArticleMeta[] = [
     ],
     relatedProducts: [
       {
-        title: "棋美點心屋小班制烘焙課（4–6 人）",
-        description: "每人一組設備，老師全程照看到底，新手最快上手的課型。",
-        link: "https://line.me/R/ti/p/@diy_chimei",
-      },
-      {
-        title: "企業／社團客製烘焙團體班",
-        description: "10 人起可到店或出班，活動策展、公司福委會首選。",
+        title: "棋美烘焙教學（小班制）",
+        description: "從新手入門到進階技術的小班制烘焙課程，依 LINE 公告報名。",
         link: "https://line.me/R/ti/p/@diy_chimei",
       },
     ],

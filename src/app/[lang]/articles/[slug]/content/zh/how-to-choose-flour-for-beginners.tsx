@@ -102,12 +102,11 @@ export default function FlourGuide() {
       </p>
 
       <p>
-        如果看完還是不確定該挑哪一款，歡迎到棋美點心屋大安店現場聞粉、看粉，或{" "}
-        <a href="https://line.me/R/ti/p/@diy_chimei" target="_blank" rel="noopener noreferrer">
-          加 LINE @diy_chimei
-        </a>{" "}
-        直接描述你想做的成品，我們依配方幫你挑最適合的一款。下一篇可以接續看{" "}
-        <Link href="/zh/articles/home-oven-buying-guide">家用烤箱選購指南</Link>，粉買對了，爐子也得對才不會前功盡棄。
+        下一篇可以接續看{" "}
+        <Link href="/zh/articles/home-oven-buying-guide" className="text-brand hover:underline">
+          家用烤箱選購指南
+        </Link>
+        ，粉買對了，爐子也得對才不會前功盡棄。
       </p>
 
       <p className="text-xs text-foreground/60">
