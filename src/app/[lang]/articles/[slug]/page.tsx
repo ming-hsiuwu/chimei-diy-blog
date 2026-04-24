@@ -6,6 +6,9 @@ import { ArticleJsonLd, FAQJsonLd } from "@/components/JsonLd";
 import { ArticleCard } from "@/components/ArticleCard";
 import { CTA } from "@/components/CTA";
 import { Breadcrumb } from "@/components/Breadcrumb";
+import { ArticleReadTracker } from "@/components/ArticleReadTracker";
+import { FAQAccordion } from "@/components/FAQAccordion";
+import { LineCTAButton } from "@/components/LineCTAButton";
 import {
   articles,
   getArticle,
@@ -158,23 +161,11 @@ export default async function ArticlePage({
           <h2 className="font-serif text-2xl font-semibold text-brand-700">
             常見問題 FAQ
           </h2>
-          <div className="mt-5 space-y-5">
-            {article.faq.map((f, i) => (
-              <details
-                key={i}
-                className="group rounded-xl border border-border bg-background p-4 open:border-brand-100"
-              >
-                <summary className="cursor-pointer list-none font-serif text-base font-semibold text-brand-700 group-open:text-brand">
-                  {f.question}
-                </summary>
-                <p className="mt-3 text-sm leading-7 text-foreground/80">
-                  {f.answer}
-                </p>
-              </details>
-            ))}
-          </div>
+          <FAQAccordion items={article.faq} articleSlug={article.slug} />
         </section>
       )}
+
+      <ArticleReadTracker slug={article.slug} category={article.category} />
 
       {article.relatedProducts && article.relatedProducts.length > 0 && (
         <section className="mt-12 rounded-2xl border border-brand-100 bg-brand-50 p-6 md:p-8">
@@ -183,11 +174,11 @@ export default async function ArticlePage({
           </h2>
           <div className="mt-5 grid gap-4 md:grid-cols-2">
             {article.relatedProducts.map((p, i) => (
-              <a
+              <LineCTAButton
                 key={i}
+                location="related_product"
+                category={article.category}
                 href={p.link}
-                target="_blank"
-                rel="noopener noreferrer"
                 className="block rounded-xl border border-border bg-surface p-4 transition-all hover:border-brand hover:shadow-md"
               >
                 <div className="font-serif text-base font-semibold text-brand-700">
@@ -195,7 +186,7 @@ export default async function ArticlePage({
                 </div>
                 <p className="mt-1 text-sm text-foreground/75">{p.description}</p>
                 <div className="mt-2 text-xs text-brand">加 LINE 詢問 →</div>
-              </a>
+              </LineCTAButton>
             ))}
           </div>
         </section>

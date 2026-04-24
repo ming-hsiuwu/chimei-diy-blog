@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { SITE, type Locale } from "@/lib/site";
 import { CATEGORIES } from "@/lib/articles";
+import { LineCTAButton } from "./LineCTAButton";
 
 export function Footer({ lang }: { lang: Locale }) {
   const prefix = `/${lang}`;
@@ -46,24 +47,20 @@ export function Footer({ lang }: { lang: Locale }) {
               <li>地址：{SITE.address}</li>
               <li>
                 LINE：
-                <a
-                  href={SITE.lineUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                <LineCTAButton
+                  location="footer"
                   className="text-brand underline underline-offset-2 hover:text-brand-700"
                 >
                   {SITE.lineId}
-                </a>
+                </LineCTAButton>
               </li>
             </ul>
-            <a
-              href={SITE.lineUrl}
-              target="_blank"
-              rel="noopener noreferrer"
+            <LineCTAButton
+              location="footer"
               className="mt-4 inline-flex rounded-full bg-brand px-4 py-2 text-sm text-background hover:bg-brand-700"
             >
               加 LINE 詢問課程 / 企業餐盒
-            </a>
+            </LineCTAButton>
           </div>
         </div>
 

@@ -1,5 +1,6 @@
 import { SITE } from "@/lib/site";
 import type { CategorySlug } from "@/lib/articles";
+import { LineCTAButton } from "./LineCTAButton";
 
 const CTA_BY_CATEGORY: Record<
   CategorySlug,
@@ -59,14 +60,13 @@ export function CTA({ category }: { category?: CategorySlug }) {
             實體店：{SITE.address}
           </p>
         </div>
-        <a
-          href={SITE.lineUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+        <LineCTAButton
+          location="cta_block"
+          category={category}
           className="inline-flex shrink-0 items-center justify-center rounded-full bg-brand px-6 py-3 text-sm font-medium text-background transition-colors hover:bg-brand-700"
         >
           {preset.buttonLabel}
-        </a>
+        </LineCTAButton>
       </div>
     </section>
   );

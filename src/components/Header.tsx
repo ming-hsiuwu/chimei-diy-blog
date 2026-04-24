@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { SITE, type Locale } from "@/lib/site";
 import { CATEGORIES } from "@/lib/articles";
+import { LineCTAButton } from "./LineCTAButton";
 
 export function Header({ lang }: { lang: Locale }) {
   const prefix = `/${lang}`;
@@ -46,24 +47,20 @@ export function Header({ lang }: { lang: Locale }) {
                 {c.name}
               </Link>
             ))}
-          <a
-            href={SITE.lineUrl}
-            target="_blank"
-            rel="noopener noreferrer"
+          <LineCTAButton
+            location="header"
             className="rounded-full bg-brand px-4 py-2 text-background transition-colors hover:bg-brand-700"
           >
             加 LINE 詢問
-          </a>
+          </LineCTAButton>
         </nav>
 
-        <a
-          href={SITE.lineUrl}
-          target="_blank"
-          rel="noopener noreferrer"
+        <LineCTAButton
+          location="mobile_header"
           className="rounded-full bg-brand px-3 py-1.5 text-xs text-background md:hidden"
         >
           LINE
-        </a>
+        </LineCTAButton>
       </div>
     </header>
   );
