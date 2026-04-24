@@ -20,11 +20,15 @@ import { SITE, isValidLocale } from "@/lib/site";
 import FlourGuide from "./content/zh/how-to-choose-flour-for-beginners";
 import OvenGuide from "./content/zh/home-oven-buying-guide";
 import TartGuide from "./content/zh/tart-shell-freezing-guide";
+import ButterGuide from "./content/zh/butter-salted-vs-unsalted";
+import ChocolateChipCookiesGuide from "./content/zh/chocolate-chip-cookies";
 
 const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-choose-flour-for-beginners": FlourGuide,
   "home-oven-buying-guide": OvenGuide,
   "tart-shell-freezing-guide": TartGuide,
+  "butter-salted-vs-unsalted": ButterGuide,
+  "chocolate-chip-cookies": ChocolateChipCookiesGuide,
 };
 
 export function generateStaticParams() {
