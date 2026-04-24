@@ -36,6 +36,13 @@ import WhippingCreamGuide from "./content/zh/whipping-cream-animal-vs-vegetable"
 import BakingClassPickGuide from "./content/zh/how-to-pick-baking-class";
 import CommercialKitchenGuide from "./content/zh/home-to-commercial-kitchen";
 import CustardStorageGuide from "./content/zh/custard-cream-storage";
+import CorporateMealGuide from "./content/zh/corporate-meal-supplier";
+import LeftoverCreamGuide from "./content/zh/leftover-whipping-cream";
+import LemonTartGuide from "./content/zh/french-lemon-tart";
+import ToastPanGuide from "./content/zh/toast-loaf-pan-guide";
+import BakingChocolateGuide from "./content/zh/baking-chocolate-selection";
+import BeginnerStarterGuide from "./content/zh/beginner-starter-course";
+import DessertPricingGuide from "./content/zh/dessert-pricing-formula";
 
 const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-choose-flour-for-beginners": FlourGuide,
@@ -57,6 +64,13 @@ const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-pick-baking-class": BakingClassPickGuide,
   "home-to-commercial-kitchen": CommercialKitchenGuide,
   "custard-cream-storage": CustardStorageGuide,
+  "corporate-meal-supplier": CorporateMealGuide,
+  "leftover-whipping-cream": LeftoverCreamGuide,
+  "french-lemon-tart": LemonTartGuide,
+  "toast-loaf-pan-guide": ToastPanGuide,
+  "baking-chocolate-selection": BakingChocolateGuide,
+  "beginner-starter-course": BeginnerStarterGuide,
+  "dessert-pricing-formula": DessertPricingGuide,
 };
 
 export function generateStaticParams() {

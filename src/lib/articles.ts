@@ -221,6 +221,368 @@ export const articles: ArticleMeta[] = [
     ],
   },
   {
+    slug: "corporate-meal-supplier",
+    title: "企業餐盒供應商怎麼選：HACCP、合約條款、專業人員要求",
+    seoTitle: "企業餐盒供應商指南｜HACCP 認證、合約重點與食品標示",
+    excerpt:
+      "企業活動、董事會午餐、員工福委會要訂餐盒，供應商該怎麼篩？從台灣 HACCP 法規、衛福部擴大實施名單、到合約條款，本文整理採購方與供應方都該注意的關鍵。",
+    metaDescription:
+      "依衛福部法規，餐盒食品工廠須通過 HACCP 食品安全管制系統。企業採購時要看認證、食字號、食品技師、投保、合約條款。本文整理 5 大篩選標準與合約要點。",
+    date: "2026-01-30",
+    category: "business",
+    categoryName: "甜點創業",
+    tags: ["企業餐盒", "HACCP", "團膳", "供應商"],
+    image:
+      "https://images.unsplash.com/photo-1696677049263-cc38af1c7681?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "木盒中盛裝的日式便當，含米飯與多樣配菜",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "why-haccp", label: "為什麼 HACCP 是門檻" },
+      { id: "checklist", label: "供應商資格 5 大檢核" },
+      { id: "contract", label: "合約條款必備 4 項" },
+      { id: "food-label", label: "食品標示責任歸屬" },
+      { id: "supplier-side", label: "想接企業單的供應方準備" },
+    ],
+    relatedProducts: [
+      {
+        title: "棋美點心屋企業下午茶甜點餐盒",
+        description: "客製化甜點／麵包餐盒，適用下午茶、會議點心、活動禮盒。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "烘焙原料量販規格批發",
+        description: "為工作室與店家提供進口原料量販，降低單位成本。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "採購方可以要求供應商提供 HACCP 認證嗎？",
+        answer:
+          "可以，且強烈建議。依衛福部公告，餐盒食品工廠屬於強制實施 HACCP 的業別。採購時要求出示 HACCP 證書影本、食品業者登錄字號、食品技師證等基本文件。沒有這些文件的供應商，出問題採購方需負連帶責任。",
+      },
+      {
+        question: "小型工作室可以接企業餐盒單嗎？",
+        answer:
+          "可以，但要看企業規模。中小企業單次訂單 50 盒以下、不要求 HACCP 認證的案子，合法登錄的甜點工作室可接。大型企業（上市公司、政府機關）通常要求 HACCP 加食品技師加 200 萬公共意外險，工作室無法接。建議從 30 人以下公司下午茶開始累積經驗。",
+      },
+      {
+        question: "合約條款有沒有範本？",
+        answer:
+          "重點條款：(1) 交貨時間與地點、(2) 食品過敏原與特殊飲食說明（素食、清真）、(3) 溫度履歷要求、(4) 退換貨與食安保險責任歸屬。建議企業採購方準備制式條款，供應方亦須有自己的 SOP 與食安事件處理流程。",
+      },
+    ],
+  },
+  {
+    slug: "leftover-whipping-cream",
+    title: "鮮奶油剩下怎麼辦：打發／半發／冷凍的實戰方法",
+    seoTitle: "剩鮮奶油保存｜打發穩定、冷凍再利用、半發回打技巧",
+    excerpt:
+      "500ml 鮮奶油做蛋糕只用一半，剩下該怎麼處理？動物性鮮奶油在冰箱放兩天就要丟可惜。本文整理 The Kitchn、Cuisine at Home 的實務做法：穩定打發延長、冷凍分裝、半發保存。",
+    metaDescription:
+      "剩下鮮奶油的三個處理法：加玉米粉加糖粉穩定打發（冷藏 48 小時）、擠花冷凍（2–3 個月可直接使用）、半發保存留作料理。本文整理詳細步驟與比例。",
+    date: "2026-01-29",
+    category: "storage",
+    categoryName: "保存技巧",
+    tags: ["鮮奶油", "打發", "冷凍保存", "食材活用"],
+    image:
+      "https://images.unsplash.com/photo-1671223842615-e990ded94de2?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "盤子上的杯子蛋糕正被擠花裝飾白色鮮奶油",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "unopened", label: "未開封：看保存期限判斷" },
+      { id: "stabilized", label: "打發後冷藏：穩定化延長 48 小時" },
+      { id: "frozen-piped", label: "冷凍擠花：2–3 個月的備料救星" },
+      { id: "semi-whipped", label: "半發狀態：留到下次料理" },
+      { id: "spoilage", label: "什麼徵兆就該丟" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 Elle & Vire 愛樂薇 35% 動物性鮮奶油",
+        description: "乳脂穩定、打發性佳，適合各種甜點內餡與裝飾用途。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "食品級冷凍夾鏈袋（真空適用）",
+        description: "擠花冷凍保存鮮奶油的最佳包裝，避免冷凍灼傷。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "動物性鮮奶油打發後冷藏能放幾天？",
+        answer:
+          "普通打發（只加糖）冷藏約 12 小時會開始出水；用糖粉取代細砂糖、加 1 小匙玉米粉穩定，可延長至 48 小時。若加吉利丁（½ 小匙泡水加微波融化），冷藏可達 3–4 天。The Kitchn 與 Sugar Geek Show 都有詳細配比。",
+      },
+      {
+        question: "鮮奶油冷凍解凍後還能用嗎？",
+        answer:
+          "未打發的鮮奶油冷凍後解凍會油水分離，不建議直接用作打發；但可用在「加熱應用」如白醬、咖哩、濃湯等不需打發的料理。已打發的鮮奶油擠花凍結成片後，可直接放在咖啡、熱可可上當裝飾，2–3 個月內風味穩定。",
+      },
+      {
+        question: "半發狀態的鮮奶油能做什麼？",
+        answer:
+          "半發（6 分發）的鮮奶油是泡芙內餡、慕斯、卡士達打發的基礎。剩下的可保鮮膜貼面冷藏，48 小時內可加進咖啡、卡士達混合成「卡士達奶油 diplomat cream」，或加融化白巧克力變成甘納許填餡。",
+      },
+    ],
+  },
+  {
+    slug: "french-lemon-tart",
+    title: "法式檸檬塔：Pierre Hermé 檸檬 curd 的黃金比例",
+    seoTitle: "法式檸檬塔食譜｜Pierre Hermé curd 比例、檸檬奶油操作",
+    excerpt:
+      "巴黎 Pierre Hermé 的檸檬塔被譽為「世界最好吃」，關鍵不在祕方而在流程：讓奶油在 60°C 下慢慢乳化，形成蓬鬆的空氣感。本文拆解 Pierre Hermé 版的經典配比與操作步驟。",
+    metaDescription:
+      "Pierre Hermé 版檸檬塔的精髓是在 60°C 乳化奶油形成 curd。本文整理黃金比例（檸檬汁:糖:蛋:奶油）、塔皮製作、奶油乳化技巧與冷藏定型時間。",
+    date: "2026-01-28",
+    category: "recipes",
+    categoryName: "食譜實作",
+    tags: ["檸檬塔", "Tarte au Citron", "Pierre Hermé", "法式甜點"],
+    image:
+      "https://images.unsplash.com/photo-1543508185-225c92847541?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "金黃色的檸檬塔，表面平整有光澤",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "why-herme", label: "為什麼 Pierre Hermé 版不一樣" },
+      { id: "ratio", label: "黃金比例（lemon curd）" },
+      { id: "sable-crust", label: "Sablée 塔皮的脆香秘訣" },
+      { id: "curd-method", label: "60°C 乳化的關鍵步驟" },
+      { id: "assembly", label: "組裝與冷藏時間" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 Elle & Vire 無鹽奶油（發酵款）",
+        description: "高乳脂、微發酵風味，塔皮與 lemon curd 都適用的萬用款。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "日本進口不沾活底塔模（6 吋／8 吋）",
+        description: "氟素塗層脫模容易、沿邊均勻上色，做家用檸檬塔首選。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "Pierre Hermé 的檸檬塔真的比較好吃嗎？",
+        answer:
+          "最大差異在「curd 的質地」。一般檸檬塔 curd 偏濃稠像布丁；Pierre Hermé 版因為奶油在 60°C 乳化入大量空氣，curd 質地像「法式 buttercream」般蓬鬆、入口即化。這也是他被稱為「味覺畢卡索」的代表作之一。",
+      },
+      {
+        question: "檸檬 curd 可以提前做好冷藏嗎？",
+        answer:
+          "可以，冷藏可保 3–5 天，冷凍 1 個月。冷凍解凍後需用料理機或手持攪拌棒重新均質，否則會出現細小油水分離。組裝後的塔成品冷藏 24 小時內最佳，超過 48 小時塔皮會被 curd 水分軟化。",
+      },
+      {
+        question: "家用版可以省略均質機嗎？",
+        answer:
+          "可以但效果打折。Pierre Hermé 原配方需要站立式均質機打 3 分鐘入空氣。家用可用手持式攪拌棒，但需注意深度與角度避免噴濺。若完全無設備，改為「分次加奶油塊、攪拌至完全融化再加下一塊」，質地會稍濃但風味仍佳。",
+      },
+    ],
+  },
+  {
+    slug: "toast-loaf-pan-guide",
+    title: "吐司模選購：Pullman 帶蓋、鍍鋁鋼、陽極鋁差在哪？",
+    seoTitle: "吐司模比較｜Pullman 帶蓋 vs 開放式、鍍鋁鋼 vs 陽極鋁",
+    excerpt:
+      "做一條方正吐司需要 Pullman 帶蓋模，做山形吐司用開放式就好；鍍鋁鋼便宜耐用、陽極鋁壽命更長。本文整理四款家用吐司模的差異與挑選建議。",
+    metaDescription:
+      "吐司模依成品形狀分帶蓋（Pullman）與開放式；材質分鍍鋁鋼、陽極鋁、不沾塗層。本文依 USA Pan、LloydPans 的專業資料整理四類吐司模的差異與家用建議。",
+    date: "2026-01-26",
+    category: "tools",
+    categoryName: "器具指南",
+    tags: ["吐司模", "Pullman", "器具選購", "烘焙器具"],
+    image:
+      "https://images.unsplash.com/photo-1720879958608-2d8dd437eb5f?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "冷卻架上剛出爐的方形吐司",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "shape-type", label: "形狀：帶蓋 Pullman vs 開放式" },
+      { id: "materials", label: "材質：鍍鋁鋼 vs 陽極鋁 vs 不沾" },
+      { id: "sizes", label: "尺寸：1 磅／1.5 磅／2 磅與台式差異" },
+      { id: "recommendation", label: "家用建議與採購清單" },
+      { id: "care", label: "保養與養模" },
+    ],
+    relatedProducts: [
+      {
+        title: "12 兩帶蓋吐司模（陽極鋁）",
+        description: "適合做方正三明治吐司，家用最常見的台式尺寸。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "Pullman 24 兩雙份大吐司模",
+        description: "商業量級帶蓋吐司模，甜點工作室或大家庭首選。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "帶蓋 Pullman 跟開放式吐司模差很多嗎？",
+        answer:
+          "成品形狀決定用途：Pullman 帶蓋烘出方正、四面等高的吐司，適合做三明治、燒肉吐司等要求平整的應用；開放式烘出「山形」或「胖山形」吐司，外觀家常、風味相同但賣相不同。工作室多備 Pullman、家用無強制需求。",
+      },
+      {
+        question: "鍍鋁鋼（aluminized steel）跟陽極鋁哪個好？",
+        answer:
+          "鍍鋁鋼較重、導熱好、耐久度高、不易變形，USA Pan、LloydPans 等美系專業品牌多用此材質。陽極鋁較輕、家用手感好、價格約為鍍鋁鋼 70%。家用建議陽極鋁、工作室建議鍍鋁鋼。",
+      },
+      {
+        question: "新吐司模要養模嗎？",
+        answer:
+          "鍍鋁鋼與陽極鋁首次使用建議「養模」：均勻塗一層高煙點油（如葵花籽油）薄層，放入預熱 200°C 烤箱烤 30 分鐘，取出待涼、擦除多餘油脂。這層油膜能提升不沾效果與延長壽命。不沾塗層則不需養模。",
+      },
+    ],
+  },
+  {
+    slug: "baking-chocolate-selection",
+    title: "烘焙巧克力怎麼挑：可可百分比、調溫與品牌一次看懂",
+    seoTitle: "烘焙巧克力指南｜可可含量、調溫 vs 非調溫、Valrhona Callebaut",
+    excerpt:
+      "包裝上寫「70% 黑巧克力」「調溫」「couverture」到底什麼意思？可可百分比、可可脂含量、是否 pre-tempered 決定巧克力最終表現。本文整理家用選購四大關鍵。",
+    metaDescription:
+      "烘焙巧克力的 4 大變數：可可百分比（55% vs 70%）、是否 couverture（可可脂 32–39%）、是否預調溫（pre-tempered）、品牌風味輪（Valrhona vs Callebaut）。",
+    date: "2026-01-25",
+    category: "ingredients",
+    categoryName: "原料選購",
+    tags: ["巧克力", "couverture", "Valrhona", "Callebaut", "烘焙原料"],
+    image:
+      "https://images.unsplash.com/photo-1558839653-17f53527c41b?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "平鋪擺放的多塊巧克力磚",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "cacao-pct", label: "可可百分比：甜 vs 苦的核心指標" },
+      { id: "couverture", label: "couverture：可可脂 32–39% 的關鍵" },
+      { id: "tempering", label: "調溫 vs 非調溫：pre-tempered 的便利" },
+      { id: "brands", label: "品牌比較：Valrhona vs Callebaut" },
+      { id: "buying-tips", label: "家用採購建議" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 Valrhona 70% Guanaja 黑巧克力 fève",
+        description: "經典深可可風味，做塔、慕斯、甘納許的黑巧克力首選。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "比利時 Callebaut 811 54.5% 黑巧克力 callet",
+        description: "風味平衡、穩定度高，工作室日常量用的 CP 值王。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "可可百分比越高越好嗎？",
+        answer:
+          "不一定。70% 以上風味濃苦，適合配方需要黑巧克力明顯味的甘納許、塔、慕斯；55% 左右更甜、風味平衡，適合餅乾、蛋糕內夾巧克力塊。60% 是家用最萬用選擇。",
+      },
+      {
+        question: "couverture 與一般烘焙巧克力差在哪？",
+        answer:
+          "couverture 的可可脂含量 32–39%（比一般巧克力多 10%+），融化後流動性佳、凝固後光澤高、入口即化。一般烘焙巧克力含植物油替代部分可可脂，價格低但光澤與口感打折。做裱花、淋面、淋膜必須用 couverture。",
+      },
+      {
+        question: "Valrhona 跟 Callebaut 哪個更好？",
+        answer:
+          "Valrhona 風味層次細膩、適合追求特色單一產區風味的高階甜點；Callebaut 風味穩定、易操作、價格 CP 值高，適合日常工作室量產。新手建議從 Callebaut 811 入門，熟悉後再嘗試 Valrhona 單一產區款（Guanaja、Jivara、Alpaco）。",
+      },
+    ],
+  },
+  {
+    slug: "beginner-starter-course",
+    title: "新手烘焙從哪類課程開始：蛋糕、麵包、餅乾的順序建議",
+    seoTitle: "烘焙新手課程順序｜餅乾 vs 蛋糕 vs 麵包的入門邏輯",
+    excerpt:
+      "「第一堂課該學什麼？」這是新手最常問的問題。餅乾容易、蛋糕有難度、麵包需要發酵耐心，依學習曲線該怎麼排？本文依 King Arthur Baking、The Kitchn 的教學架構整理建議。",
+    metaDescription:
+      "新手烘焙課程順序建議：餅乾（掌握配方比例）→ 磅蛋糕（學奶油打發）→ 戚風蛋糕（蛋白霜）→ 麵包（發酵）→ 法式甜點（進階）。本文整理各階段重點與常見失敗。",
+    date: "2026-01-24",
+    category: "course",
+    categoryName: "課程心得",
+    tags: ["新手入門", "烘焙學習", "課程順序", "基礎課"],
+    image:
+      "https://images.unsplash.com/photo-1770040792359-5d965344308c?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "小孩的雙手在綠色桌面上搓揉麵團",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "why-order-matters", label: "為什麼學習順序很重要" },
+      { id: "stage-1-cookies", label: "階段 1：餅乾（掌握配方比例）" },
+      { id: "stage-2-pound", label: "階段 2：磅蛋糕（奶油打發）" },
+      { id: "stage-3-chiffon", label: "階段 3：戚風蛋糕（蛋白霜）" },
+      { id: "stage-4-bread", label: "階段 4：麵包（發酵管理）" },
+      { id: "stage-5-advanced", label: "階段 5：進階法式甜點" },
+    ],
+    relatedProducts: [
+      {
+        title: "棋美點心屋新手入門烘焙課",
+        description: "從餅乾、磅蛋糕到基礎麵包的階梯式課程，4–6 人小班。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "為什麼要先學餅乾而非蛋糕？",
+        answer:
+          "餅乾配方最簡單（奶油、糖、蛋、粉四個變數）、成功率最高、立刻能看到成果。新手建立「配方比例決定成品」的基本認知，之後學蛋糕才不會迷失在步驟海中。King Arthur Baking 的初學者課也是餅乾先行。",
+      },
+      {
+        question: "磅蛋糕跟戚風蛋糕哪個該先？",
+        answer:
+          "磅蛋糕先。磅蛋糕的核心技巧是「奶油打發入氣」，相對單一；戚風則需要掌握蛋白霜加油水乳化兩套複雜技巧，失敗點多。先把奶油打發做穩定後再進戚風，失敗次數會減半。",
+      },
+      {
+        question: "跳過順序直接學可頌可以嗎？",
+        answer:
+          "可以上課，但別期待第一次就成功。可頌涉及「發酵加層次加冷藏節奏」三件事，每一件都是獨立技能。建議至少有做過 10 次基礎吐司、5 次蘋果塔的實作經驗後再挑戰可頌，過程才不會挫折連連。",
+      },
+    ],
+  },
+  {
+    slug: "dessert-pricing-formula",
+    title: "甜點定價公式：食材 30%、人工 30%、毛利 40% 的平衡",
+    seoTitle: "甜點定價公式｜食材人工包材成本、食材成本 30% 原則",
+    excerpt:
+      "做甜點創業的第一題：這盒馬卡龍該賣多少錢？答案不是拍腦袋，而是 Toasttab、UpMenu 等業界通用的「食材成本 30% 反推法」加上人工、包材、固定成本。本文附實際計算範例。",
+    metaDescription:
+      "甜點定價業界通則：食材成本等於售價 × 30%（反推可得售價）。加上人工 20–30%、包材 5–10%、固定成本 10–15%、毛利 25–35%。本文附完整計算範例與定價 5 大陷阱。",
+    date: "2026-01-23",
+    category: "business",
+    categoryName: "甜點創業",
+    tags: ["甜點定價", "成本", "利潤", "甜點創業"],
+    image:
+      "https://images.unsplash.com/photo-1711672284661-bd70e38f31b2?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "烘焙坊內陳列架上擺放多種烘焙成品",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "food-cost-30", label: "核心原則：食材成本 30%" },
+      { id: "formula", label: "完整定價公式" },
+      { id: "example", label: "實際案例：6 吋巧克力蛋糕" },
+      { id: "other-factors", label: "市場調性與品牌溢價" },
+      { id: "common-mistakes", label: "定價 5 大陷阱" },
+    ],
+    faq: [
+      {
+        question: "食材成本 30% 是硬性規則嗎？",
+        answer:
+          "不是硬性，但是業界通用基準。Toasttab、Lightspeed 的餐飲定價指南都建議食材佔比 25–35%。低於 25% 你在「剝削食材品質」，高於 35% 會壓縮其他成本與利潤空間。高端手工甜點可到 40%，但必須在人工或固定成本省出來。",
+      },
+      {
+        question: "人工成本怎麼算？",
+        answer:
+          "簡單算法：(你的時薪 × 實作分鐘數) ÷ 60。例如時薪訂 400 元、做一盒 6 顆馬卡龍需 30 分鐘，人工成本等於 400 × 30/60 = 200 元。初期創業者常低估自己的時薪，建議至少用 350 元起跳，避免做越多越累。",
+      },
+      {
+        question: "可以用國外配方直接定價嗎？",
+        answer:
+          "不行。國外定價對應當地食材、人工、市場。台灣市場對甜點價格敏感度高、通路競爭激烈，必須獨立試算。常見案例：巴黎 6 歐元的 canelé 到台北只能賣 85–120 元，不是匯率問題，是市場接受度。",
+      },
+    ],
+  },
+  {
     slug: "meringue-macaron-storage",
     title: "蛋白霜與馬卡龍殼的保存邏輯：濕度才是真正敵人",
     seoTitle: "馬卡龍殼保存指南｜濕度控制、冷藏冷凍期限與回溫",
