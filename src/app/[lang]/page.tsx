@@ -7,7 +7,7 @@ import { articles, CATEGORIES } from "@/lib/articles";
 import { SITE, isValidLocale } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: SITE.defaultTitle,
+  title: { absolute: SITE.defaultTitle },
   description: SITE.defaultDescription,
   alternates: {
     canonical: `${SITE.url}/zh`,
