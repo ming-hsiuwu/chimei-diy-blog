@@ -22,6 +22,13 @@ import OvenGuide from "./content/zh/home-oven-buying-guide";
 import TartGuide from "./content/zh/tart-shell-freezing-guide";
 import ButterGuide from "./content/zh/butter-salted-vs-unsalted";
 import ChocolateChipCookiesGuide from "./content/zh/chocolate-chip-cookies";
+import CastellaGuide from "./content/zh/japanese-castella-cake";
+import RollingPinGuide from "./content/zh/rolling-pin-selection";
+import BakingSugarsGuide from "./content/zh/baking-sugars-complete-guide";
+import ClassSizeGuide from "./content/zh/small-vs-large-class";
+import PastryLegalGuide from "./content/zh/pastry-studio-legal-setup";
+import BreadFreezingGuide from "./content/zh/bread-freezing-guide";
+import StandMixerGuide from "./content/zh/stand-mixer-guide";
 
 const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-choose-flour-for-beginners": FlourGuide,
@@ -29,6 +36,13 @@ const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "tart-shell-freezing-guide": TartGuide,
   "butter-salted-vs-unsalted": ButterGuide,
   "chocolate-chip-cookies": ChocolateChipCookiesGuide,
+  "japanese-castella-cake": CastellaGuide,
+  "rolling-pin-selection": RollingPinGuide,
+  "baking-sugars-complete-guide": BakingSugarsGuide,
+  "small-vs-large-class": ClassSizeGuide,
+  "pastry-studio-legal-setup": PastryLegalGuide,
+  "bread-freezing-guide": BreadFreezingGuide,
+  "stand-mixer-guide": StandMixerGuide,
 };
 
 export function generateStaticParams() {

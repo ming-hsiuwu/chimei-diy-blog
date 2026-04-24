@@ -114,16 +114,13 @@ export default function OvenGuide() {
 
       <p>
         烤箱選好之後，建議也讀{" "}
-        <Link href="/zh/articles/how-to-choose-flour-for-beginners">新手挑麵粉完整指南</Link>{" "}
-        — 配方要成功，材料與設備要一起對。想現場看機或比價，歡迎{" "}
-        <a href="https://line.me/R/ti/p/@diy_chimei" target="_blank" rel="noopener noreferrer">
-          加 LINE @diy_chimei
-        </a>{" "}
-        預約到棋美點心屋大安店實機體驗。
-      </p>
+        <Link href="/zh/articles/how-to-choose-flour-for-beginners" className="text-brand hover:underline">
+          新手挑麵粉完整指南
+        </Link>
+        — 配方要成功，材料與設備要一起對。</p>
 
       <p className="text-xs text-foreground/60">
-        參考資料：日清製粉《ベーカリーオーブン基本》、Serious Eats Food Lab Oven Testing、各家烤箱原廠規格書。
+        參考資料：Serious Eats Food Lab Oven Testing、各家烤箱原廠規格書、日本製菓學校烘焙設備教材。
       </p>
     </>
   );
