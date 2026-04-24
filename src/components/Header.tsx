@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { SITE, type Locale } from "@/lib/site";
 import { CATEGORIES } from "@/lib/articles";
 
@@ -12,9 +13,14 @@ export function Header({ lang }: { lang: Locale }) {
           className="flex items-center gap-3 text-brand-700 hover:text-brand"
           aria-label={SITE.brandName}
         >
-          <span className="grid h-10 w-10 place-items-center rounded-full bg-brand text-background font-display text-lg">
-            C
-          </span>
+          <Image
+            src="/logo.png"
+            alt={SITE.brandName}
+            width={44}
+            height={44}
+            priority
+            className="h-11 w-11 rounded-full"
+          />
           <span className="flex flex-col leading-tight">
             <span className="font-serif text-[1.05rem] font-semibold">
               {SITE.brandNameShort}
