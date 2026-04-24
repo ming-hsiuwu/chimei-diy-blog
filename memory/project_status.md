@@ -47,10 +47,15 @@ type: project
 - 2026-04-24：favicon / icon.png / apple-icon.png 從 `棋美logo.ai` 轉出（AI 內容是 PDF wrapper，`sips` 直接吃 .ai 會 error，要先 `cp` 成 `.pdf` 再 sips，或用 qlmanage。最後用 Python PIL 自動 trim whitespace + 產多尺寸）
 - 2026-04-24：**事故備忘**：搬檔時 zsh `nomatch` 讓 `mv` 中止 → 接續的 `rm -rf /tmp/chimei_backup` 誤刪 logo。已由使用者重新放回。**教訓**：搬檔一律用 `cp -a` + 逐檔驗證，或先 `rm` 來源後再 `mv`；不要在同指令混用 glob 與 `rm`。
 - 2026-04-24：**Vercel CLI `env add` pipe bug**：`printf "val" | vercel env add ...` 會收到空值而不是實際值。遇到 single-value env 建議直接寫進程式碼預設值（SITE.url 已改為寫死 fallback + trim 防禦）。
-- 2026-04-24：**80 篇擴充計畫啟動**，採方案 A（分批寫 + 中途審）。主題清單已鎖定、日期隨機分配於 2026-01-01 ~ 2026-04-24。舊 3 篇日期重分：flour 4/24、oven 4/23、tart 4/22。第一批標竿 2 篇完成：
-  - `butter-salted-vs-unsalted`（2026-01-01，原料）— 一手來源：FDA 21 CFR 131.120、USDA AMS Butter Standards、衛福部奶油標示規定、Le Cordon Bleu、King Arthur
-  - `chocolate-chip-cookies`（2026-01-04，食譜）— 一手來源：NYT 2008 David Leite Jacques Torres 專題、Serious Eats Kenji Food Lab
-  - 剩 75 篇待分批生產（每批 8–10 篇）；圖片都採 Unsplash 免費版（images.unsplash.com/photo-）。
+- 2026-04-24：**80 篇擴充計畫第一階段（40 篇）完成**，採方案 A（分批寫 + 中途審）。日期分佈於 2026-01-01 ~ 2026-04-24。
+  - **分類分佈**：原料 9、器具 7、食譜 8、保存 7、創業 5、課程 4（加舊 3 篇共 40 篇）
+  - **5 批完成**：Batch 1（01-03~13）、Batch 2（01-14~21）、Batch 3（01-23~30）、Batch 4（02-01~10）、Batch 5（02-12~23）
+  - **商品策略**（依 services.md）：只推棋美服務範圍內的品類，不推大型電器（烤箱、攪拌機）、不編造諮詢／組合包等服務；具體進口品牌限常見款（Elle & Vire、PRÉSIDENT、Valrhona、Callebaut、Philadelphia、日清山茶花等）
+  - **導購語規則**：文章內文不得出現「到棋美體驗／選購／試用」棋美沒販售的品項（烤箱篇已移除這類句子）
+  - **一手來源涵蓋**：FDA 21 CFR、USDA AMS/FSIS、衛福部食藥署、勞動部技能檢定中心、法國藍帶、Ferrandi、Pierre Hermé、King Arthur Baking、Serious Eats、Nielsen-Massey、Valrhona/Callebaut 官方等
+  - **剩 40 篇**：清單已定（見歷史 Jan–Apr 對話），待第二階段生產
+- 2026-04-24：**規則補充**：JSX 內避免在 `<li>` 裡直接用 `>` 符號（會被 parser 誤認標籤），改寫「超過」或 `&gt;`。
+- 2026-04-24：**全域規則同步**（CLAUDE.md 更新）：所有時間溝通採 UTC+8、回報時自動換算。
 
 ## 外部資源
 - Vercel project：`minghsiuwus-projects/chimei-diy-blog`（GitHub 已連結，push main 自動部署）

@@ -221,6 +221,355 @@ export const articles: ArticleMeta[] = [
     ],
   },
   {
+    slug: "leavening-agents-compared",
+    title: "泡打粉 vs 小蘇打 vs 酵母：三種膨脹劑的化學原理",
+    seoTitle: "膨脹劑比較｜泡打粉、小蘇打、酵母的化學反應與用途",
+    excerpt:
+      "同樣是「讓麵糊膨脹」，泡打粉、小蘇打、酵母背後的化學原理差異極大。泡打粉是雙段反應、小蘇打靠酸性材料、酵母是活細胞發酵。本文依 K-State、Bob's Red Mill 的化學文獻拆解。",
+    metaDescription:
+      "泡打粉（baking powder）= 小蘇打加酸粉末、遇水與遇熱雙段釋放 CO₂；小蘇打（baking soda）靠配方酸性激發；酵母是活細胞發酵產氣。本文整理三者的反應機制、用途與替換原則。",
+    date: "2026-02-23",
+    category: "ingredients",
+    categoryName: "原料選購",
+    tags: ["膨脹劑", "泡打粉", "小蘇打", "酵母", "烘焙化學"],
+    image:
+      "https://images.unsplash.com/photo-1638405803126-d12de49c7d47?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "桌面上擺放的灰色泡打粉罐裝",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "three-types", label: "三類膨脹劑的本質差異" },
+      { id: "baking-soda", label: "小蘇打：單段鹼性反應" },
+      { id: "baking-powder", label: "泡打粉：雙段自帶酸" },
+      { id: "yeast", label: "酵母：活細胞發酵" },
+      { id: "substitution", label: "互換原則與計算" },
+    ],
+    relatedProducts: [
+      {
+        title: "美國 Clabber Girl 雙效泡打粉 227g",
+        description: "經典雙段反應泡打粉，遇水與遇熱二度釋放 CO₂，成品膨脹穩定。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "法國 SAF 紅袋即發酵母 500g",
+        description: "烘焙業界通用即發酵母，麵包、吐司、披薩萬用。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "小蘇打跟泡打粉可以互相替換嗎？",
+        answer:
+          "不建議直接替換。小蘇打需要配方含酸性（優酪乳、檸檬汁、紅糖、可可粉）才會作用；泡打粉自帶酸粉末、不需額外酸。若要用小蘇打替換泡打粉，需同時加入酸性液（白醋、檸檬汁等）才能發揮作用。比例是 1 小匙泡打粉 ≈ 0.25 小匙小蘇打 + 0.5 小匙酸。",
+      },
+      {
+        question: "為什麼有些配方兩種都加？",
+        answer:
+          "同時使用能取二者之長：小蘇打快速釋放大量 CO₂ 讓麵糊瞬間膨起、泡打粉第二段在烤箱中補膨。美式巧克力餅乾、香蕉磅蛋糕常見此配法，成品「外脆內鬆」。",
+      },
+      {
+        question: "酵母跟化學膨脹劑差在哪？",
+        answer:
+          "速度與風味。酵母需 1–4 小時發酵、風味豐富（含少量乙醇與有機酸）；化學膨脹劑即拌即烤、風味中性。麵包靠酵母（需要風味），蛋糕餅乾靠化學膨脹（需要快速）。功能不同、無法互換。",
+      },
+    ],
+  },
+  {
+    slug: "parent-child-baking-class",
+    title: "親子烘焙課怎麼準備：年齡對應、安全與工具選擇",
+    seoTitle: "親子烘焙課指南｜3-12 歲年齡任務、安全準備、裝備清單",
+    excerpt:
+      "帶 4 歲小孩做餅乾可愛但混亂、帶 10 歲可以完成完整磅蛋糕。KidsHealth、Baketivity 等教育資源有明確的年齡對應任務表。本文整理親子烘焙的年齡、安全與裝備準備。",
+    metaDescription:
+      "親子烘焙依年齡分配任務：3–5 歲洗料攪乾粉、6–8 歲量材料敲蛋、9–12 歲獨立操作簡單食譜。本文整理安全準備、基本裝備與 5 個最適合初次親子的配方。",
+    date: "2026-02-18",
+    category: "course",
+    categoryName: "課程心得",
+    tags: ["親子烘焙", "兒童", "廚房安全", "家庭活動"],
+    image:
+      "https://images.unsplash.com/photo-1752652012719-91c73fafdcb7?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "母親與女兒在廚房一起準備食材",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "age-tasks", label: "年齡對應任務表" },
+      { id: "safety", label: "安全準備：熱源、刀具、過敏" },
+      { id: "equipment", label: "親子烘焙裝備清單" },
+      { id: "first-recipes", label: "5 個最適合初次的配方" },
+      { id: "cleanup", label: "親子清潔分工" },
+    ],
+    relatedProducts: [
+      {
+        title: "棋美點心屋親子烘焙課（6 歲以上）",
+        description: "適合親子共同操作的小班制課程，含材料包與安全講解。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "幾歲開始可以一起做烘焙？",
+        answer:
+          "3 歲就可以開始，但任務要依能力分配。3–5 歲可洗水果、攪拌乾粉、用餅乾模切形狀；6–8 歲可學量材料、敲蛋、用奶油刀；9–12 歲可獨立操作簡單食譜、使用手持攪拌機。重點是「讓孩子有成就感，不是做出完美成品」。",
+      },
+      {
+        question: "過敏原要怎麼處理？",
+        answer:
+          "參加親子課前一定告知老師孩子的過敏原（蛋、奶、麩質、堅果、芝麻）。專業親子課會提前設計「過敏原排除配方」。家中自己做則應準備替代材料（無蛋版、無麩質粉），讓孩子參與選食材的環節。",
+      },
+      {
+        question: "孩子做不好會不會挫折？",
+        answer:
+          "親子烘焙的核心不是成品，是「共同製作的記憶」。預期會失敗、會混亂，重點是讓孩子體驗過程。事先溝通「今天我們是一起玩，不是比賽」；成品如果真的 NG，一起笑著分享也比完美更值得。",
+      },
+    ],
+  },
+  {
+    slug: "online-bakery-compliance",
+    title: "網路甜點店必備：食品業者登錄、發票、標示與食安規範",
+    seoTitle: "網路賣甜點合規指南｜食登字號、食品標示、發票與進口食品",
+    excerpt:
+      "IG 接單做手工餅乾、蝦皮上架磅蛋糕、FB 團購代購日本甜點——只要對外販售就適用台灣食安法規。本文整理食藥署網路販售食品的合規要點：登錄、標示、發票、進口食品。",
+    metaDescription:
+      "網路販售食品合規 5 件事：完成食品業者登錄、包裝標示 9 項資訊、開立發票（稅籍登記後）、進口食品報關查驗、食品過敏原告知。本文依食藥署官方規範整理。",
+    date: "2026-02-16",
+    category: "business",
+    categoryName: "甜點創業",
+    tags: ["網路販售", "食品標示", "食品業者登錄", "食安法"],
+    image:
+      "https://images.unsplash.com/photo-1706111577615-5972d14e4782?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "黃色背景上擺放一個附標籤的玻璃果醬罐",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "registration", label: "食品業者登錄是基本門檻" },
+      { id: "labeling", label: "包裝食品 9 項標示必備" },
+      { id: "invoice", label: "發票與稅籍登記" },
+      { id: "imported", label: "代購進口食品的特殊規範" },
+      { id: "penalties", label: "違規的實際風險" },
+    ],
+    faq: [
+      {
+        question: "IG 接單做餅乾也要登錄食品業者嗎？",
+        answer:
+          "要。食藥署規範「只要對外販售食品」就需登錄，IG、FB、LINE、蝦皮、市集都屬販售通路。登錄免費、1–3 個工作天完成，不做被查到首次命限期改正，屆期未改可罰 3 萬–300 萬。",
+      },
+      {
+        question: "網路賣食品一定要開發票嗎？",
+        answer:
+          "月營業額超過 8 萬（衛福部免稅標準）起須辦稅籍登記並開立發票。8 萬以下的「小規模營業人」可申請免辦登記，但需完成食品業者登錄。蝦皮、PChome 等平台因合規要求，通常要求商家必須能開發票。",
+      },
+      {
+        question: "代購日本甜點回台灣賣可以嗎？",
+        answer:
+          "有條件可以。依食藥署規範，代購進口食品在本國網路販售須向食藥署申請查驗。少量自用代購（每人每日 6 公斤以內）的灰色地帶常被睜一眼閉一眼，但<strong>大量網路販售必須走正式進口報關</strong>，否則屬違法。",
+      },
+    ],
+  },
+  {
+    slug: "chocolate-bloom-storage",
+    title: "巧克力的白化現象：脂霜 vs 糖霜的成因與預防",
+    seoTitle: "巧克力白化處理｜脂霜糖霜差別、溫濕度管理與修復",
+    excerpt:
+      "冰箱拿出的巧克力表面出現白色霧狀斑塊——這是「白化」（bloom）。脂霜由冷熱變化造成、糖霜由濕度造成。本文拆解兩種白化的原理、預防方式與修復方法。",
+    metaDescription:
+      "巧克力 bloom 有兩種：脂霜（fat bloom）由溫度變動、糖霜（sugar bloom）由濕度。理想保存 16–20°C、相對濕度 <55%、避免冷藏。本文整理兩種白化的辨識與預防技巧。",
+    date: "2026-02-15",
+    category: "storage",
+    categoryName: "保存技巧",
+    tags: ["巧克力", "保存", "白化", "bloom", "溫濕度"],
+    image:
+      "https://images.unsplash.com/photo-1516905327772-37c577f92a35?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "灰色容器上放著深色巧克力磚",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "two-types", label: "兩種白化：脂霜 vs 糖霜" },
+      { id: "fat-bloom", label: "脂霜：溫度變動的結果" },
+      { id: "sugar-bloom", label: "糖霜：濕度惹的禍" },
+      { id: "storage", label: "理想保存條件" },
+      { id: "fix", label: "白化巧克力如何修復？" },
+    ],
+    relatedProducts: [
+      {
+        title: "食品級密封防潮罐（含矽膠墊）",
+        description: "巧克力、堅果、抹茶粉等怕潮原料的長期保存首選。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "食品級乾燥劑（脫氧除濕）",
+        description: "放置於容器中維持內部濕度 40% 以下，避免糖霜白化。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "白化的巧克力還能吃嗎？",
+        answer:
+          "可以，完全沒有食安問題。白化只是外觀與口感的改變——脂霜會讓巧克力失去脆度、糖霜會讓表面粗糙，但不會變質。最好的處理方式是融化後重新調溫使用在烘焙（布朗尼、餅乾），掩蓋白化的外觀。",
+      },
+      {
+        question: "為什麼巧克力不能冷藏？",
+        answer:
+          "冷藏會造成兩種白化同時發生：低溫讓可可脂結晶型態改變（脂霜），從冰箱取出時表面結露（糖霜）。若真的必須冷藏（夏季 30°C+），請密封包裹、取出後不開包裝回溫到室溫再拆。一般家用 16–22°C 常溫陰涼處最好。",
+      },
+      {
+        question: "脂霜與糖霜怎麼分辨？",
+        answer:
+          "脂霜呈「灰白色、霧狀、分布均勻」，摸起來仍是乾燥的；糖霜呈「明顯白點或顆粒、分布不均」，用舌舔會有粗粒感。前者遇熱會消失（可融化重做）、後者不會。",
+      },
+    ],
+  },
+  {
+    slug: "brioche-for-beginners",
+    title: "新手也能做的布里歐修：38% 奶油的黃金比例與攪拌技巧",
+    seoTitle: "家庭布里歐修食譜｜Ferrandi 38% 奶油比例與 35 分鐘攪拌",
+    excerpt:
+      "布里歐修（brioche）是「麵包界的貴族」——加了蛋、奶油、糖的 enriched dough。Ferrandi、Pardon Your French 的經典比例是 38% 奶油（麵粉重量計）。本文拆解家用布里歐修的完整操作。",
+    metaDescription:
+      "法式布里歐修的 38% 奶油（對麵粉重量）是 Ferrandi 經典版比例。本文整理材料比例、桌上型攪拌機 35 分鐘攪拌流程、兩階段發酵與家用烘烤技巧。",
+    date: "2026-02-14",
+    category: "recipes",
+    categoryName: "食譜實作",
+    tags: ["布里歐修", "brioche", "法式麵包", "enriched dough"],
+    image:
+      "https://images.unsplash.com/photo-1682159173219-3c09e78ee667?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "木質砧板上擺放烤好的金黃色長條麵包",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "what-is", label: "什麼是 brioche（enriched dough）" },
+      { id: "ratio", label: "38% 奶油的黃金比例" },
+      { id: "mixing", label: "攪拌 35 分鐘的耐心" },
+      { id: "fermentation", label: "兩階段發酵" },
+      { id: "baking", label: "整形與烘烤" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 Elle & Vire 愛樂薇無鹽奶油 500g",
+        description: "82% 乳脂、柔軟延展性佳，布里歐修攪拌加入奶油時不易斷鏈。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "日本日清山茶花高筋麵粉 500g",
+        description: "蛋白質 12%、筋性穩定，是 brioche 長時間攪拌下仍能支撐結構的選擇。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "為什麼 brioche 要用桌上型攪拌機？",
+        answer:
+          "brioche 含 38% 奶油（對麵粉重量），手揉需要 60–90 分鐘且手溫會讓奶油融化。桌上型攪拌機用鉤子持續 35 分鐘可完成筋性形成，且溫度控制更穩定。Sally's Baking Addiction、The Flavor Bender 的配方都假設使用站立式攪拌機。",
+      },
+      {
+        question: "可以減奶油比例嗎？",
+        answer:
+          "可以但會改變產品性質。25% 奶油 = 布里歐修 loaf（較接近吐司）；38% = 經典 brioche（Ferrandi 標準）；50%+ = Richissime（超富貴版）。新手建議從 30% 開始，風味接近但失敗率較低。",
+      },
+      {
+        question: "冷藏發酵隔夜好嗎？",
+        answer:
+          "非常推薦。第一次發酵後冷藏過夜（8–12 小時）有三個好處：風味更複雜（低溫長時間發酵產生有機酸）、麵團更好整形（冷後奶油回固）、時間可分兩天操作。專業烘焙坊 90% 採冷藏隔夜法。",
+      },
+    ],
+  },
+  {
+    slug: "tart-pan-comparison",
+    title: "塔模與派模比較：菊花邊、活底、材質的選擇邏輯",
+    seoTitle: "塔派模指南｜菊花邊 vs 平邊、活底 vs 固定底、材質比較",
+    excerpt:
+      "Quiche、Tarte、Pie 使用的模具各有差異：菊花邊的美感、活底的脫模便利、材質的烘烤效果。America's Test Kitchen、Fat Daddio's 的評測整理了專業建議。本文拆解家用選購。",
+    metaDescription:
+      "塔模／派模依形狀、底部、材質分類：菊花邊 vs 平邊（美感）、活底 vs 固定底（脫模）、陽極鋁 vs 陶瓷 vs 玻璃（導熱）。本文整理家用最實用的 3 種組合。",
+    date: "2026-02-13",
+    category: "tools",
+    categoryName: "器具指南",
+    tags: ["塔模", "派模", "quiche", "器具選購"],
+    image:
+      "https://images.unsplash.com/photo-1708319503768-271fca0fc336?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "白色平盤上擺放烤好的派皮塔殼",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "shape", label: "形狀：菊花邊 vs 平邊" },
+      { id: "bottom", label: "底部：活底 vs 固定底" },
+      { id: "materials", label: "材質：金屬 vs 陶瓷 vs 玻璃" },
+      { id: "sizes", label: "尺寸：從 4 吋到 10 吋" },
+      { id: "recommendation", label: "家用最實用 3 種組合" },
+    ],
+    relatedProducts: [
+      {
+        title: "陽極鋁菊花邊活底塔模（6 吋 / 8 吋）",
+        description: "法式檸檬塔、蘋果塔的家用黃金規格，脫模與上色都漂亮。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "迷你塔模組合（4 吋 × 6 只）",
+        description: "送禮、試作、家庭聚會的精美選擇，一次可做多種口味。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "菊花邊塔模跟平邊差在哪？",
+        answer:
+          "除了美感差異，菊花邊的「波浪結構」能讓塔皮在烘烤時更均勻受熱、也提供塔皮更多摩擦面避免收縮。法式甜點 95% 用菊花邊（tarte）；美式派類多用平邊陶瓷（pie dish）。",
+      },
+      {
+        question: "活底塔模需要預防漏液嗎？",
+        answer:
+          "需要注意。烤卡士達類、鮮奶油類的 quiche 時，液體可能從活底與側壁的縫隙滲出。解決方法：(1) 烤前盲烤塔皮確實、(2) 烤盤下方墊烘焙紙接滴、(3) 倒入填料前在縫隙貼一圈融化奶油封縫。",
+      },
+      {
+        question: "陶瓷塔模可以不預烤直接填料烤嗎？",
+        answer:
+          "可以但效果不同。陶瓷導熱慢、蓄熱穩，適合「長時間慢烤」的填料重塔（如南瓜派、巧克力塔）。金屬活底塔模導熱快、適合「要求塔皮酥脆」的法式塔。兩者不是替代品，是不同用途的專業工具。",
+      },
+    ],
+  },
+  {
+    slug: "eggs-in-baking",
+    title: "全蛋、蛋白、蛋黃在烘焙中的三種角色",
+    seoTitle: "蛋在烘焙中的功能｜蛋白起泡、蛋黃乳化、全蛋結構",
+    excerpt:
+      "蛋白做蛋白霜、蛋黃做卡士達、全蛋做蛋糕——為什麼這麼分？蛋的三種型態在化學組成上差異極大：蛋白 90% 水 + 10% 蛋白質、蛋黃 49% 水 + 17% 蛋白質 + 32% 脂。本文拆解烘焙角色。",
+    metaDescription:
+      "蛋白負責起泡、結構、提升乾度；蛋黃負責乳化、豐腴、保濕；全蛋做為萬用結構。本文依 Puratos、Serious Eats 的蛋科學文獻整理三種型態在不同烘焙產品的角色。",
+    date: "2026-02-12",
+    category: "ingredients",
+    categoryName: "原料選購",
+    tags: ["蛋", "蛋白", "蛋黃", "烘焙化學", "烘焙原料"],
+    image:
+      "https://images.unsplash.com/photo-1771795533816-d2da398b1e9f?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "不鏽鋼碗中正用打蛋器攪打雞蛋",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "composition", label: "蛋白與蛋黃的化學組成" },
+      { id: "egg-whites", label: "蛋白：起泡、結構、乾度" },
+      { id: "egg-yolks", label: "蛋黃：乳化、豐腴、保濕" },
+      { id: "whole-eggs", label: "全蛋：萬用結構" },
+      { id: "size-conversion", label: "蛋的大小換算" },
+    ],
+    faq: [
+      {
+        question: "配方寫「蛋」指的是什麼大小？",
+        answer:
+          "多數國際配方以「L 號大蛋」（去殼約 50g）為基準。台灣蛋依重量分級：XL 68g+、L 60–68g、M 53–60g、S 46–53g。若配方明確克數（如 150g 蛋）最準確；若只寫顆數，用 L 號 50g 去殼計算最安全。",
+      },
+      {
+        question: "為什麼有些配方要蛋白、蛋黃分開加？",
+        answer:
+          "戚風、日式海綿、慕斯需要「蛋白霜」提供蓬鬆氣泡，蛋黃則加入麵糊做基底。分開加是為了控制兩個結構各自的表現。直接用全蛋打發會得到「海綿基底」但膨脹度與細緻度都不如分蛋版。",
+      },
+      {
+        question: "冷蛋與常溫蛋差很多嗎？",
+        answer:
+          "差很多，特別是「需要打發」的配方。常溫蛋（20°C）蛋白打發體積比冷蛋（4°C）大 2–3 倍；磅蛋糕的分次加蛋也需常溫才不會讓奶油凝固。建議烘焙前 30 分鐘將蛋取出常溫、或隔 40°C 溫水浴 5 分鐘加速回溫。",
+      },
+    ],
+  },
+  {
     slug: "baking-certification-worth-it",
     title: "烘焙丙級、乙級證照有用嗎？誰需要、誰可省",
     seoTitle: "烘焙技術士證照指南｜丙級乙級差異、適合對象與價值",
