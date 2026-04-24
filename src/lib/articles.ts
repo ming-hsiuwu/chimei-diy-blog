@@ -221,6 +221,355 @@ export const articles: ArticleMeta[] = [
     ],
   },
   {
+    slug: "baking-certification-worth-it",
+    title: "烘焙丙級、乙級證照有用嗎？誰需要、誰可省",
+    seoTitle: "烘焙技術士證照指南｜丙級乙級差異、適合對象與價值",
+    excerpt:
+      "勞動部「烘焙食品技術士」丙乙級證照每年數萬人報考。對甜點創業者、家庭烘焙玩家分別有什麼實質意義？本文整理兩級差異、報考資格、實務價值與 CP 值分析。",
+    metaDescription:
+      "台灣烘焙丙級技術士面向一般作業人員、乙級面向熟練技術員與生產主管。本文整理勞動部技能檢定中心的官方規範、兩級差異、適合對象與創業／求職價值分析。",
+    date: "2026-02-10",
+    category: "course",
+    categoryName: "課程心得",
+    tags: ["烘焙證照", "丙級", "乙級", "技能檢定"],
+    image:
+      "https://images.unsplash.com/photo-1658235081033-ccd89cdfe77a?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "身穿畢業服的女性手持畢業證書",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "who-issues", label: "誰發證、誰管：勞動部的角色" },
+      { id: "bing-level", label: "丙級：一般作業人員的入門" },
+      { id: "yi-level", label: "乙級：熟練技術員的進階" },
+      { id: "who-needs", label: "哪些人真的需要？" },
+      { id: "cost-value", label: "報考成本與實質效益" },
+    ],
+    faq: [
+      {
+        question: "不考證照也能賣甜點嗎？",
+        answer:
+          "可以。依《食品安全衛生管理法》販售甜點只需完成食品業者登錄即可，沒有強制證照要求。證照對「創業販售」不是必要條件，但對「大型烘焙坊求職」「政府採購案投標」「學校或機構擔任師資」等場景有幫助。",
+      },
+      {
+        question: "丙級跟乙級差多少？",
+        answer:
+          "丙級是入門級技術士，面向「一般作業人員」，項目 6 大項（產品分類、原料選用、製作、品質鑑定、包裝、貯存）。乙級面向「熟練技術員或生產主管」，多 3 項（品質管制、成本計算、烘焙 GMP），且要求操作規格與時間更嚴格。丙級通過率約 50%，乙級約 25%。",
+      },
+      {
+        question: "家庭烘焙玩家需要考嗎？",
+        answer:
+          "如果純粹是興趣，不需要。丙級的術科項目較制式（甜麵包、海綿蛋糕、西點蛋糕），跟家庭烘焙的創作型配方差異大。但若想系統化學習烘焙基礎、或希望有公信力認證，考丙級是具體目標。3–6 個月準備期通常足夠。",
+      },
+    ],
+  },
+  {
+    slug: "bakery-sop-writing",
+    title: "烘焙小店 SOP 怎麼寫：新手店員 2 週上手的流程設計",
+    seoTitle: "烘焙 SOP 設計指南｜作業流程、員工訓練、品質一致性",
+    excerpt:
+      "甜點店或烘焙坊雇用第一位店員時，最常見的痛點不是「找不到人」而是「教不會」。SOP（標準作業流程）能把腦中經驗寫成文件，讓新手 2 週就能獨立作業。本文整理 ClickUp、Template.net 的 SOP 框架與實務建議。",
+    metaDescription:
+      "烘焙小店 SOP 應涵蓋 6 大面向：原料管理、製作流程、包裝標示、清潔衛生、設備維護、客訴處理。本文提供模組化範本與新手訓練 2 週計畫。",
+    date: "2026-02-09",
+    category: "business",
+    categoryName: "甜點創業",
+    tags: ["SOP", "員工訓練", "烘焙店經營", "甜點創業"],
+    image:
+      "https://images.unsplash.com/photo-1773546812142-9d8b42aa207f?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "商業廚房中烘焙師在烤箱與層架旁工作",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "why-sop", label: "為什麼小店更需要 SOP" },
+      { id: "six-modules", label: "SOP 的 6 大模組" },
+      { id: "template", label: "實作範本：一頁版 SOP" },
+      { id: "training", label: "新手 2 週訓練時程" },
+      { id: "maintain", label: "SOP 的維護與更新" },
+    ],
+    faq: [
+      {
+        question: "SOP 跟配方書差在哪？",
+        answer:
+          "配方書記錄「做這個甜點需要什麼材料、什麼步驟」；SOP 記錄「這家店的員工要依什麼流程工作」，包含到職訓練、開店關店、結帳、冰箱溫度紀錄、客訴處理等配方外的所有事。兩者互補，缺一不可。",
+      },
+      {
+        question: "只有 1–2 個員工也需要 SOP 嗎？",
+        answer:
+          "非常需要。老闆一個人腦內運作的 SOP 沒寫下來，員工離職時經驗會全部帶走。1 人小店也建議建立 SOP，這樣未來擴編、找接手、或老闆休假才不會崩潰。",
+      },
+      {
+        question: "SOP 要寫多詳細？",
+        answer:
+          "以「新人看文件能獨立操作」為標準。太簡略新人會持續問問題、太詳細反而沒人看。建議以 1–2 頁 A4 為一個模組，關鍵步驟配圖、關鍵參數用粗體，平均 2–3 分鐘能讀完的長度。",
+      },
+    ],
+  },
+  {
+    slug: "yeast-storage-guide",
+    title: "酵母完整保存指南：乾酵母、新鮮酵母、老麵怎麼放？",
+    seoTitle: "酵母保存方法｜乾酵母冷凍 6 個月、新鮮酵母冷藏 2 週",
+    excerpt:
+      "酵母是活的——溫度、濕度、氧氣都會影響活性。Bob's Red Mill、Master Class 的建議是依酵母類型分流保存：乾酵母冷凍、新鮮酵母冷藏、老麵勤餵。本文整理三類酵母的最佳保存邏輯。",
+    metaDescription:
+      "酵母保存依類型不同：未開封乾酵母 2 年、開封冷藏 4 個月、冷凍 6 個月；新鮮酵母冷藏 2 週、不可冷凍；老麵冷藏每週餵養。本文整理完整保存流程與活性測試法。",
+    date: "2026-02-08",
+    category: "storage",
+    categoryName: "保存技巧",
+    tags: ["酵母", "保存", "乾酵母", "新鮮酵母", "老麵"],
+    image:
+      "https://images.unsplash.com/photo-1767065887251-a3fba481c3cf?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "發酵籃中正在發酵的兩個麵包麵團",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "types", label: "三種酵母：活力與保存差異" },
+      { id: "dry-yeast", label: "乾酵母：冷凍才是王道" },
+      { id: "fresh-yeast", label: "新鮮酵母：冷藏 2 週極限" },
+      { id: "sourdough", label: "天然酵種老麵：持續餵養" },
+      { id: "viability-test", label: "酵母活性測試法" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 SAF 紅袋即發酵母 500g",
+        description: "業界通用即發酵母，甜麵包、吐司、歐包通用。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "食品級氣密保鮮盒（含矽膠密封圈）",
+        description: "乾酵母、麵粉等粉類原料冷藏冷凍保存首選容器。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "冷凍酵母拿出來要先退冰嗎？",
+        answer:
+          "不需要。乾酵母（active dry 或 instant）從冷凍直接取出即可使用，不需退冰。冷凍的酵母細胞處於「休眠」狀態，接觸溫水（38–43°C）會立即復活。退冰時若凝水反而會縮短保存期。",
+      },
+      {
+        question: "過期的酵母還能用嗎？",
+        answer:
+          "看保存條件與過期多久。冷凍良好的乾酵母即使過期半年通常仍有活性；常溫存放的過期酵母多數失效。最可靠的判斷是做「活性測試」：取少量酵母加入 38°C 溫水加 1 小匙糖，靜置 10 分鐘，若產生明顯泡沫就還能用。",
+      },
+      {
+        question: "新鮮酵母為什麼不能冷凍？",
+        answer:
+          "新鮮酵母含水率高（約 70%），冷凍時細胞壁會被冰晶刺破、死亡率極高。解凍後可能只剩原本 10–20% 的活性，發酵時間不穩定。業界做法是用完不冷凍，或改買乾酵母以冷凍方式長期保存。",
+      },
+    ],
+  },
+  {
+    slug: "cream-cheese-pound-cake",
+    title: "奶油乳酪磅蛋糕：不失敗的經典配方與打發技巧",
+    seoTitle: "奶油乳酪磅蛋糕食譜｜奶油 cream cheese 黃金比例與打發",
+    excerpt:
+      "磅蛋糕是烘焙新手的友善對手——材料簡單、成功率高，加入奶油乳酪後風味層次立刻升級。本文依 Paula Deen 經典配方拆解黃金比例、打發判斷與烘烤技巧。",
+    metaDescription:
+      "奶油乳酪磅蛋糕的經典比例：奶油 1：奶油乳酪 1：糖 3：蛋 6：粉 3.5。本文拆解打發入氣判斷、分次加蛋的油水乳化原理、以及 60–80 分鐘烘烤的溫度控制。",
+    date: "2026-02-06",
+    category: "recipes",
+    categoryName: "食譜實作",
+    tags: ["磅蛋糕", "奶油乳酪", "cream cheese", "食譜"],
+    image:
+      "https://images.unsplash.com/photo-1662793295930-15702b7a1f37?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "木質切板上的磅蛋糕切片，外觀金黃",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "golden-ratio", label: "黃金比例（Paula Deen 經典版）" },
+      { id: "cream-cheese-role", label: "奶油乳酪為什麼加？" },
+      { id: "butter-whipping", label: "奶油打發的三個判斷點" },
+      { id: "adding-eggs", label: "分次加蛋：避免油水分離" },
+      { id: "baking", label: "180°C 下火加蓋烘烤 60–80 分鐘" },
+    ],
+    relatedProducts: [
+      {
+        title: "美國 Philadelphia 費城原味奶油乳酪 227g",
+        description: "磅蛋糕加入後風味升級的經典選擇，穩定度與風味並重。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "法國 PRÉSIDENT 總統牌無鹽奶油 250g",
+        description: "82% 乳脂、打發入氣順暢，磅蛋糕輕盈感的關鍵。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "奶油乳酪一定要回溫嗎？",
+        answer:
+          "是，非常重要。冷藏的奶油乳酪太硬，與打發奶油混合會結塊、無法均質。使用前 1 小時取出室溫回溫，捏起來像橡皮擦的硬度即可。趕時間可切小塊、放微波 10 秒（不是融化）。",
+      },
+      {
+        question: "為什麼要分次加蛋而不是一次倒入？",
+        answer:
+          "奶油與蛋是油水兩相，一次倒入會「油水分離」無法均質。正確做法是分 6–8 次，每次加 1 顆蛋後攪拌至完全吸收（約 1 分鐘）再加下一顆。這樣形成穩定的 oil-in-water 乳化，蛋糕組織才會細緻。",
+      },
+      {
+        question: "為什麼要中途加鋁箔蓋？",
+        answer:
+          "磅蛋糕烘烤約 40 分鐘時表面會達到目標金黃色，但中心還需要 20–40 分鐘。加蓋可避免表面過焦乾硬。判斷時機：表面已呈金黃（不是淺棕）、側邊開始有微脹裂縫時加蓋。",
+      },
+    ],
+  },
+  {
+    slug: "chiffon-pan-selection",
+    title: "戚風蛋糕模挑選：為什麼中空、活底、不塗層很重要？",
+    seoTitle: "戚風蛋糕模指南｜中空活底、陽極鋁、不塗層的意義",
+    excerpt:
+      "戚風蛋糕為什麼要用中空、活底、不塗層的專用模？每個設計都有其化學與物理邏輯：中空加速熱傳、活底易脫模、不塗層讓蛋糊能「爬高」。本文完整說明。",
+    metaDescription:
+      "戚風模的三個關鍵設計：中空（熱傳對流）、活底（不傷組織脫模）、不塗層（蛋糊能沿壁攀爬）。本文整理陽極鋁與不沾塗層的差異、家用尺寸選擇與保養。",
+    date: "2026-02-05",
+    category: "tools",
+    categoryName: "器具指南",
+    tags: ["戚風蛋糕", "烘焙模具", "陽極鋁", "器具選購"],
+    image:
+      "https://images.unsplash.com/photo-1497730620907-6a4cf807bb94?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "蛋糕架上展示的金黃色環型蛋糕",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "why-tube", label: "中空設計：熱傳導效率的關鍵" },
+      { id: "why-removable", label: "活底：戚風脫模的救星" },
+      { id: "why-ungreased", label: "為什麼要不塗層？" },
+      { id: "size-guide", label: "尺寸選擇：6 吋 vs 8 吋" },
+      { id: "care", label: "保養與清潔" },
+    ],
+    relatedProducts: [
+      {
+        title: "陽極鋁 6 吋中空活底戚風模",
+        description: "家用最常見尺寸，蛋糊容量 3 顆蛋左右，適合小家庭。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "陽極鋁 8 吋中空活底戚風模",
+        description: "派對、送禮尺寸，蛋糊容量 6 顆蛋，切片可分 10 塊。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "戚風模可以用不沾塗層嗎？",
+        answer:
+          "強烈不建議。戚風蛋糕麵糊需要「攀爬」模壁形成氣泡結構，不沾塗層會讓蛋糊滑下、發不起來、縮腰嚴重。傳統戚風模必須是「陽極鋁裸金屬」，不能塗層、不能塗油。",
+      },
+      {
+        question: "為什麼戚風脫模要倒扣？",
+        answer:
+          "戚風組織鬆軟，出爐後立即脫模會因重力下塌。倒扣冷卻讓蛋糕「懸掛」在架上，利用中空管支撐與底部朝上方向，維持組織不塌。完全冷卻（2–3 小時）後再脫模最安全。",
+      },
+      {
+        question: "脫模時怎麼不把蛋糕弄壞？",
+        answer:
+          "用「脫模刀」（長而薄的不鏽鋼刀）貼著模壁從邊緣慢慢畫一圈，然後從中空管底部把蛋糕往上推出；翻面後再用脫模刀分離底盤。動作要慢、刀貼緊壁，粗暴會扯破組織。",
+      },
+    ],
+  },
+  {
+    slug: "vanilla-bean-vs-extract",
+    title: "天然香草莢 vs 香草精 vs 香草醬：價差 10 倍的原因",
+    seoTitle: "香草莢香草精比較｜Nielsen-Massey 等級、用途與替換",
+    excerpt:
+      "做卡士達用香草莢、做餅乾用香草精，到底為什麼？Nielsen-Massey、McCormick 等品牌的官方建議不同產品用不同形式。本文整理三種香草產品的化學組成與價差原理。",
+    metaDescription:
+      "香草莢（整條）、香草精（酒精萃取）、香草醬（膏狀含籽）各有用途。本文整理 Nielsen-Massey、McCormick 官方建議的對應場景、替換比例、以及馬達加斯加、大溪地、墨西哥產區差異。",
+    date: "2026-02-03",
+    category: "ingredients",
+    categoryName: "原料選購",
+    tags: ["香草", "香草莢", "香草精", "烘焙原料"],
+    image:
+      "https://images.unsplash.com/photo-1682482198446-4cbf92f85a4b?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "木質桌面上整束擺放的乾燥香草莢",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "three-forms", label: "三種形式的化學差異" },
+      { id: "regions", label: "產區差異：馬達加斯加／大溪地／墨西哥" },
+      { id: "use-cases", label: "什麼時候用哪種？" },
+      { id: "substitution", label: "替換比例" },
+      { id: "storage", label: "保存與活用" },
+    ],
+    relatedProducts: [
+      {
+        title: "馬達加斯加 Bourbon 香草莢（2 支裝）",
+        description: "香氣最濃郁、最經典的產區，卡士達、冰淇淋必備。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "純天然香草精（30ml 瓶裝）",
+        description: "餅乾、蛋糕等不見籽的配方使用，1 小匙取代 1 支香草莢。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "為什麼香草莢這麼貴？",
+        answer:
+          "香草蘭是全球第二昂貴的香料（僅次於番紅花）。人工授粉（蘭花只開放 1 天、只能人手一朵朵授粉）、漫長的熟成（綠豆莢採收後要 6 個月發酵乾燥變黑才成香草莢）、產量極少都是價格高昂原因。1 公斤香草莢約 700–900 美元。",
+      },
+      {
+        question: "香草精可以自製嗎？",
+        answer:
+          "可以。將 3–5 支香草莢縱剖裝入 250ml 伏特加或白蘭姆中，常溫靜置 8 週即成。自製香草精風味更濃厚、成本比市售低一半，且無添加糖、玉米糖漿。放置時間越長味道越深。",
+      },
+      {
+        question: "McCormick 的香草精跟 Nielsen-Massey 的差很多嗎？",
+        answer:
+          "差在濃度與純度。Nielsen-Massey 用真正的香草莢酒精萃取，純度高、層次複雜；McCormick 常見款含人工香草醛（vanillin）成分，價格低、味道較單一。高階甜點（慕斯、冰淇淋）差異明顯；餅乾、磅蛋糕的掩蓋效果強，兩者差異不大。",
+      },
+    ],
+  },
+  {
+    slug: "online-vs-offline-baking",
+    title: "線上課 vs 實體課：家庭烘焙的 CP 值選擇",
+    seoTitle: "線上 vs 實體烘焙課｜學習效果、費用、適用對象比較",
+    excerpt:
+      "線上 200 元看到一堂法式甜點課，實體 2,000 元一堂看似差 10 倍。但學習效果是否也差 10 倍？本文依 Park City Culinary、Escoffier 等機構的比較整理兩者的實質差異。",
+    metaDescription:
+      "線上課勝在費用低、彈性高、可重播；實體課勝在即時回饋、多感官學習、建立人脈。本文整理兩種課型的學習效果、適合對象與家庭烘焙者的 CP 值決策。",
+    date: "2026-02-01",
+    category: "course",
+    categoryName: "課程心得",
+    tags: ["烘焙課", "線上課", "實體課", "課程選擇"],
+    image:
+      "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "黃色毛衣人坐在木桌前使用筆電",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "online-pros", label: "線上課的 4 大優勢" },
+      { id: "offline-pros", label: "實體課不可替代的 3 件事" },
+      { id: "cost-compare", label: "費用換算：元／小時實作成本" },
+      { id: "who-fits", label: "什麼人適合哪種？" },
+      { id: "hybrid", label: "混合模式：先實體再線上" },
+    ],
+    relatedProducts: [
+      {
+        title: "棋美點心屋實體小班制課程",
+        description: "4–6 人小班、一人一組設備、課後 LINE 諮詢，最適合建立手感。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "線上課真的能學會烘焙嗎？",
+        answer:
+          "看學習目標與自律程度。想「會做某個食譜」，線上課搭配自我練習 3–5 次就能做出成品；想「真正理解烘焙原理、建立手感」，沒有老師即時回饋就很難精進。LCI、Escoffier 等機構都強調：實體的手感訓練無法用影片取代。",
+      },
+      {
+        question: "線上課的錢算不算白花？",
+        answer:
+          "不算，但要知道它的定位。線上課是「食譜圖書館 + 老師示範」，對擴展會做的品項範圍很有用。但別期待用它「第一次就做對從沒做過的品項」——線上看會，實作不會是常態。",
+      },
+      {
+        question: "新手該從哪種開始？",
+        answer:
+          "建議先上 2–3 堂實體課建立基礎手感（餅乾、磅蛋糕、戚風），再用線上課拓展食譜庫（慕斯、泡芙、可麗露）。純線上開始的新手失敗率極高、容易挫折放棄。",
+      },
+    ],
+  },
+  {
     slug: "corporate-meal-supplier",
     title: "企業餐盒供應商怎麼選：HACCP、合約條款、專業人員要求",
     seoTitle: "企業餐盒供應商指南｜HACCP 認證、合約重點與食品標示",

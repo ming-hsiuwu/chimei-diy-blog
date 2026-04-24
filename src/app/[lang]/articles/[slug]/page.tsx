@@ -43,6 +43,13 @@ import ToastPanGuide from "./content/zh/toast-loaf-pan-guide";
 import BakingChocolateGuide from "./content/zh/baking-chocolate-selection";
 import BeginnerStarterGuide from "./content/zh/beginner-starter-course";
 import DessertPricingGuide from "./content/zh/dessert-pricing-formula";
+import BakingCertificationGuide from "./content/zh/baking-certification-worth-it";
+import BakerySOPGuide from "./content/zh/bakery-sop-writing";
+import YeastStorageGuide from "./content/zh/yeast-storage-guide";
+import CreamCheesePoundGuide from "./content/zh/cream-cheese-pound-cake";
+import ChiffonPanGuide from "./content/zh/chiffon-pan-selection";
+import VanillaGuide from "./content/zh/vanilla-bean-vs-extract";
+import OnlineOfflineGuide from "./content/zh/online-vs-offline-baking";
 
 const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-choose-flour-for-beginners": FlourGuide,
@@ -71,6 +78,13 @@ const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "baking-chocolate-selection": BakingChocolateGuide,
   "beginner-starter-course": BeginnerStarterGuide,
   "dessert-pricing-formula": DessertPricingGuide,
+  "baking-certification-worth-it": BakingCertificationGuide,
+  "bakery-sop-writing": BakerySOPGuide,
+  "yeast-storage-guide": YeastStorageGuide,
+  "cream-cheese-pound-cake": CreamCheesePoundGuide,
+  "chiffon-pan-selection": ChiffonPanGuide,
+  "vanilla-bean-vs-extract": VanillaGuide,
+  "online-vs-offline-baking": OnlineOfflineGuide,
 };
 
 export function generateStaticParams() {
