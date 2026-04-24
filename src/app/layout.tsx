@@ -1,7 +1,10 @@
 import type { Metadata } from "next";
 import { Noto_Sans_TC, Noto_Serif_TC, Fraunces } from "next/font/google";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "./globals.css";
 import { SITE } from "@/lib/site";
+
+const GA_ID = "G-5CPXRW6KR3";
 
 const notoSansTC = Noto_Sans_TC({
   variable: "--font-noto-sans-tc",
@@ -53,6 +56,7 @@ export default function RootLayout({
       className={`${notoSansTC.variable} ${notoSerifTC.variable} ${fraunces.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
+      {process.env.NODE_ENV === "production" && <GoogleAnalytics gaId={GA_ID} />}
     </html>
   );
 }
