@@ -221,6 +221,367 @@ export const articles: ArticleMeta[] = [
     ],
   },
   {
+    slug: "meringue-macaron-storage",
+    title: "蛋白霜與馬卡龍殼的保存邏輯：濕度才是真正敵人",
+    seoTitle: "馬卡龍殼保存指南｜濕度控制、冷藏冷凍期限與回溫",
+    excerpt:
+      "做好的馬卡龍殼放幾小時就軟掉？問題不在你，而在空氣濕度。本文整理業內常見保存建議，從殼、填餡、冷藏到冷凍一次說明。",
+    metaDescription:
+      "馬卡龍殼最大的敵人不是時間是濕度。室溫 1–2 天、冷藏 5–7 天、冷凍 3–6 個月。本文整理氣密容器、濕度控制、退冰手法與填餡後保存期限。",
+    date: "2026-01-21",
+    category: "storage",
+    categoryName: "保存技巧",
+    tags: ["馬卡龍", "蛋白霜", "保存", "濕度"],
+    image:
+      "https://images.unsplash.com/photo-1702745572427-c7c772b45ff3?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "粉紅色背景上擺放著各色馬卡龍",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "humidity", label: "最大敵人：濕度與溫度的交叉影響" },
+      { id: "unfilled", label: "未填餡殼：室溫／冷藏／冷凍" },
+      { id: "filled", label: "已填餡：冷藏必備加回溫 30 分鐘" },
+      { id: "packaging", label: "氣密包裝與乾燥劑策略" },
+      { id: "common-mistakes", label: "常見保存 NG" },
+    ],
+    relatedProducts: [
+      {
+        title: "馬卡龍禮盒（6 入／12 入含內襯）",
+        description: "含防震內襯與氣密封口，甜點工作室送禮與寄賣首選。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "食品級乾燥劑（除濕脫氧包）",
+        description: "放置於氣密盒中吸收殘留濕氣，延長馬卡龍殼保脆時間。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "為什麼馬卡龍殼放久會變軟？",
+        answer:
+          "蛋白霜以砂糖為主結構，本身強吸濕。台灣夏天相對濕度常超過 70%，空氣中的水分會被殼表面逐漸吸收，導致外殼軟化、脆裙消失。業界解法是氣密容器加乾燥劑，將內部濕度控制在 40% 以下。",
+      },
+      {
+        question: "馬卡龍殼冷凍解凍後會不會碎掉？",
+        answer:
+          "不會，只要包裝得當。未填餡殼以保鮮膜雙層包加冷凍夾鏈袋可冷凍 3–6 個月。退冰時「不開袋」放冷藏 8 小時加常溫 30 分鐘，避免冷空氣接觸殼表面結露。",
+      },
+      {
+        question: "已填餡的馬卡龍最多能放多久？",
+        answer:
+          "已填餡馬卡龍必須冷藏，最佳品嚐時間是「填餡後冷藏 24–48 小時」，讓甘納許的水分滲入殼體形成濕潤的內層（maturation）。Pierre Marcolini、FAUCHON 等法國老舖都建議 3 天內食用完畢，超過 5 天殼會完全濕黏。",
+      },
+    ],
+  },
+  {
+    slug: "homemade-croissants",
+    title: "家庭版可頌：三折三次的層次計算與奶油片製作",
+    seoTitle: "家庭可頌食譜｜三折三次層數、冷藏時機、奶油片製作",
+    excerpt:
+      "可頌讓家庭烘焙者又愛又怕，關鍵在「奶油與麵團同溫」與「折的次數」。本文依 Sally's Baking Addiction、The Flavor Bender 的實務做法整理三折三次的層次計算與冷藏時機。",
+    metaDescription:
+      "家庭版可頌的核心是三折三次 = 81 層奶油層。本文整理奶油片製作、三折摺疊步驟、各階段冷藏時間，以及 82% 高脂烘焙奶油的選擇邏輯。",
+    date: "2026-01-20",
+    category: "recipes",
+    categoryName: "食譜實作",
+    tags: ["可頌", "千層麵團", "法式甜點", "食譜"],
+    image:
+      "https://images.unsplash.com/photo-1693483640461-267d788b6148?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "烤盤上排成一列烘烤完成的金黃色可頌",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "layer-math", label: "層次計算：三折三次等於 81 層" },
+      { id: "butter-sheet", label: "關鍵：奶油片（beurre de tourage）" },
+      { id: "folding", label: "三折三次的實作步驟" },
+      { id: "rest-time", label: "各階段冷藏時機" },
+      { id: "bake", label: "整形、發酵、烘烤" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 82% 烘焙用奶油片（beurre de tourage）",
+        description: "高脂、延展性強，避免家用 80% 奶油被壓薄時破裂斷層。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "日本日清山茶花高筋麵粉 500g",
+        description: "蛋白質 12%、穩定筋性，對千層麵團支撐最有利。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "三折三次跟三折兩次加單折差在哪？",
+        answer:
+          "三折三次等於 27 × 3 = 81 層；三折兩次加單折等於 9 × 3 × 2 = 54 層。前者層次更密、口感綿細；後者層次較明顯、咀嚼感更立體。Ferrandi 教學偏好三折三次，家用新手建議也從這個版本開始。",
+      },
+      {
+        question: "為什麼一定要用 82% 奶油而不是家用 80%？",
+        answer:
+          "82% 奶油含水率較低（約 16% 對比 80% 的 17%），延展性更好。在冰箱冷藏狀態下擀開時不易斷裂，這對保持「奶油層連續不破」至關重要。一旦斷層，奶油會在烘烤時融合進麵粉，層次就消失了。",
+      },
+      {
+        question: "做可頌一定要三天？",
+        answer:
+          "不是，但建議至少分兩天。Day 1 做 détrempe 麵團加第一次折加冷藏過夜；Day 2 完成第二三次折加整形加發酵加烘烤。一天內完成需要高度精準的溫度控制，容易因奶油融化失敗。",
+      },
+    ],
+  },
+  {
+    slug: "baking-pan-materials",
+    title: "烤盤材質怎麼挑：鋁、陽極鋁、不沾、不鏽鋼一次看懂",
+    seoTitle: "烤盤材質比較｜陽極鋁 vs 不沾 vs 不鏽鋼熱傳導與反應性",
+    excerpt:
+      "烤盤材質決定你家烘焙的成品色澤與均勻度。King Arthur Baking、Fat Daddio's 等專業品牌的觀點一致：陽極鋁是家用最均衡選擇。本文整理四種材質的熱傳導、反應性與價格差異。",
+    metaDescription:
+      "鋁盤導熱最好但會與酸性食材反應；不鏽鋼導熱最差、易形成熱點；陽極鋁解決兩者痛點，King Arthur 等專業品牌推薦。本文整理四種烤盤材質的熱傳導、反應性與家用建議。",
+    date: "2026-01-19",
+    category: "tools",
+    categoryName: "器具指南",
+    tags: ["烤盤", "陽極鋁", "不沾", "不鏽鋼", "器具選購"],
+    image:
+      "https://images.unsplash.com/photo-1586664510812-52b8306f3fb0?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "深色烤盤上烘烤完成的棕色糕點",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "heat-conductivity", label: "熱傳導：鋁 vs 不鏽鋼差多少" },
+      { id: "anodized", label: "陽極鋁：家用最均衡選擇" },
+      { id: "nonstick", label: "不沾塗層：方便但有壽命" },
+      { id: "stainless", label: "不鏽鋼：專業但家用不易" },
+      { id: "buying-guide", label: "採購與保養建議" },
+    ],
+    relatedProducts: [
+      {
+        title: "陽極鋁烤盤（全尺寸／半盤尺寸）",
+        description: "耐用、不與酸性食材反應，家用烘焙黃金標配。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "日本進口不沾塔模（活底）",
+        description: "氟素塗層易脫模、家用塔皮成品成功率高。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "為什麼不建議新手用不鏽鋼烤盤？",
+        answer:
+          "不鏽鋼導熱係數僅約 15 W/m·K，遠低於鋁的 230 W/m·K。實務上會導致熱點明顯、餅乾邊緣過焦中心未熟、蛋糕表面縮腰等問題。除非你有大量經驗微調烤箱溫度與位置，否則新手建議選鋁或陽極鋁。",
+      },
+      {
+        question: "不沾塗層會不會有毒？",
+        answer:
+          "主流 PTFE（鐵氟龍）塗層在低於 260°C 下是穩定的，家用烘焙溫度 180–220°C 不會釋放有害物質。避免空燒（無食物加熱）、避免刮傷是使用重點。若擔心化學塗層，可選陶瓷塗層版本。",
+      },
+      {
+        question: "陽極鋁跟 hard-anodized 差在哪？",
+        answer:
+          "陽極鋁（anodized）是鋁表面經電解氧化形成氧化鋁保護層；hard-anodized 則是厚度更厚（2 倍以上）的強化版，耐刮、耐酸、耐久度更高。家用烘焙一般陽極鋁已足夠，hard-anodized 用於商業廚房或高頻使用者。",
+      },
+    ],
+  },
+  {
+    slug: "whipping-cream-animal-vs-vegetable",
+    title: "鮮奶油動物性 vs 植物性：打發穩定度、風味與適用場景",
+    seoTitle: "動物性 vs 植物性鮮奶油｜乳脂率、打發穩定度、風味差別",
+    excerpt:
+      "同樣是鮮奶油，動物性 35% 乳脂香氣濃但易融化；植物性含植物油與乳化劑，穩定性高但風味較薄。本文整理兩者的化學組成、打發邏輯、適用場景與常見品牌。",
+    metaDescription:
+      "動物性鮮奶油乳脂 30–36%、風味濃厚但溫敏；植物性含植物油與乳化劑、穩定性高但風味較薄。本文整理兩者的科學差異、打發技巧與裝飾／內餡的選擇邏輯。",
+    date: "2026-01-18",
+    category: "ingredients",
+    categoryName: "原料選購",
+    tags: ["鮮奶油", "動物性", "植物性", "烘焙原料"],
+    image:
+      "https://images.unsplash.com/photo-1585434891654-63ce67414d98?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "透明玻璃碗中打發的白色鮮奶油",
+    readingTime: 6,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "composition", label: "化學組成差異" },
+      { id: "whipping", label: "打發穩定度的科學" },
+      { id: "flavor", label: "風味與口感" },
+      { id: "use-cases", label: "適用場景分配" },
+      { id: "brands", label: "台灣常見品牌與規格" },
+    ],
+    relatedProducts: [
+      {
+        title: "法國 Elle & Vire 愛樂薇 35% 動物性鮮奶油 1L",
+        description: "諾曼第乳源、乳脂穩定，做香緹、慕斯、布丁的業界標準。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "植物性調味鮮奶油（裝飾用）",
+        description: "穩定性高、保形佳，適合擠花裝飾與夏季高溫環境。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "動物性鮮奶油為什麼不容易打發？",
+        answer:
+          "動物性鮮奶油的打發需要「脂肪球部分結晶、相互連結」形成氣泡包覆的網絡。溫度太高會讓脂肪完全液化、打不起；太低則結晶過度、打發後油水分離。關鍵是「鋼盆與打蛋頭冰鎮、乳脂保持 4°C」，打發環境維持在 10°C 以下最穩定。",
+      },
+      {
+        question: "植物性鮮奶油真的比較不健康嗎？",
+        answer:
+          "早期植物性鮮奶油含氫化植物油（反式脂肪），健康疑慮大。近 10 年多改用棕櫚油、葵花油等非氫化油脂，無反式脂肪問題，但仍含乳化劑、甜味劑、穩定劑等加工成分。追求天然風味選動物性、追求穩定裝飾選植物性，依用途各有合理場景。",
+      },
+      {
+        question: "動物與植物鮮奶油可以混合使用嗎？",
+        answer:
+          "可以，比例 1:1 是常見做法。動物性提供風味、植物性提供穩定，混合後打發會有較接近純動物的風味，但保形能力接近植物性。做婚禮蛋糕、夏日裝飾時是業內常用技巧。",
+      },
+    ],
+  },
+  {
+    slug: "how-to-pick-baking-class",
+    title: "一堂烘焙課怎麼挑：看老師、看配方、看設備三件事",
+    seoTitle: "烘焙課程選擇指南｜老師資歷、課程深度、設備環境評估",
+    excerpt:
+      "市面上烘焙課從體驗型 800 元到大師班 5,000 元都有，CP 值差距巨大。本文整理報名前該問的三大面向：老師資歷、配方來源、設備規格，幫你快速篩掉虛有其表的課程。",
+    metaDescription:
+      "報名烘焙課前看三件事：老師專業背景、配方是否有科學解釋、教室設備是否符合正規烘焙需求。本文整理可以直接問課程方的 8 個關鍵問題。",
+    date: "2026-01-16",
+    category: "course",
+    categoryName: "課程心得",
+    tags: ["烘焙課", "課程選擇", "師資", "新手入門"],
+    image:
+      "https://images.unsplash.com/photo-1683624328172-88fb24625ec1?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "一群人在廚房中一起準備與烹調食物",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "teacher", label: "看老師：資歷與教學風格" },
+      { id: "curriculum", label: "看配方：為什麼而不只怎麼做" },
+      { id: "equipment", label: "看設備：專業器材的重要性" },
+      { id: "questions", label: "報名前該問的 8 個問題" },
+      { id: "red-flags", label: "這些跡象代表該換課" },
+    ],
+    relatedProducts: [
+      {
+        title: "棋美點心屋小班制烘焙課",
+        description: "4–6 人小班、一人一組獨立設備、課後 LINE 諮詢。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "老師一定要有海外經驗才是好老師嗎？",
+        answer:
+          "不一定。海外經驗（如法國藍帶、Ferrandi、日本製菓學校）能證明基本功，但教學能力才是關鍵。有些本土老師累積了對台灣食材、烤箱、氣候的調整經驗，反而更實用。建議看課程評價與具體教學內容，別只看證書。",
+      },
+      {
+        question: "報名前能先問課程方試吃嗎？",
+        answer:
+          "多數專業烘焙課會提供「課程成品照」或「示範開放日」，部分高階課也會有免費試吃體驗會。若老師拒絕透露任何具體成品或拒絕試吃，是值得警惕的訊號——代表品質可能禁不起檢驗。",
+      },
+      {
+        question: "線上課跟實體課能互相取代嗎？",
+        answer:
+          "各有適合場景。線上課適合擴展食譜庫、看老師示範手法；實體課適合建立手感、當場修正錯誤。建議新手先上 2–3 堂實體課建立基礎，再用線上課拓展。兩者結合最划算。",
+      },
+    ],
+  },
+  {
+    slug: "home-to-commercial-kitchen",
+    title: "從家庭廚房到商業廚房：設備、動線、法規的升級清單",
+    seoTitle: "商業廚房升級｜設廠標準、動線規劃、設備升級建議",
+    excerpt:
+      "當 IG 甜點訂單從每週 3 盒成長到 30 盒，家庭廚房會遇到第一個瓶頸：動線混亂、冷藏不足、清潔壓力爆表。本文依〈食品工廠建築及設備設廠標準〉整理從家用到商用的升級重點。",
+    metaDescription:
+      "家庭廚房到商業廚房的 3 大升級：動線分區（備料／加工／包裝／儲存）、設備量級（商用冷藏、發酵箱、雙烤箱）、衛生規範（200 勒克斯光線、防病媒、洗手消毒）。",
+    date: "2026-01-15",
+    category: "business",
+    categoryName: "甜點創業",
+    tags: ["商業廚房", "甜點創業", "動線規劃", "設備升級"],
+    image:
+      "https://images.unsplash.com/photo-1708915965975-2a950db0e215?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "現代廚房搭配不鏽鋼器具與木質枱面",
+    readingTime: 7,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "when-to-upgrade", label: "判斷時機：何時該升級" },
+      { id: "layout", label: "動線分區：不逆流原則" },
+      { id: "equipment", label: "設備升級：從家用到半商用" },
+      { id: "regulations", label: "〈食品工廠設廠標準〉重點" },
+      { id: "cost", label: "預算規劃：30 萬 vs 80 萬方案" },
+    ],
+    faq: [
+      {
+        question: "自宅廚房可以登記食品業者，為什麼還要升級商業廚房？",
+        answer:
+          "食品業者登錄是「最低門檻」，讓你合法販售；但當訂單量達到每週 50 盒以上，家用 4L 冰箱、雙口瓦斯、12L 烤箱會成為產能瓶頸。商業廚房解決的不只是法規，更是產能、效率與品質一致性。",
+      },
+      {
+        question: "設廠標準裡「200 勒克斯光線」很重要嗎？",
+        answer:
+          "是衛生局稽查項目之一。實務上家用 LED 燈 5000K 色溫加 800 流明即可達到標準。關鍵是工作檯正上方要有足夠照明，避免視覺疲勞導致衛生判斷失誤。",
+      },
+      {
+        question: "30 萬預算能做商業廚房嗎？",
+        answer:
+          "可以做「半商用」。30 萬大致分配：二手商用冷藏（5 萬）、雙層烤箱（6 萬）、桌上型攪拌機升級（3 萬）、不鏽鋼工作檯兩張（3 萬）、水電改裝與動線規劃（8 萬）、耗材與包材初期庫存（5 萬）。80 萬方案則可直接進商用等級雙烤箱加螺旋式商用攪拌機。",
+      },
+    ],
+  },
+  {
+    slug: "custard-cream-storage",
+    title: "自製卡士達醬可以放多久？FDA 溫度原則與延長技巧",
+    seoTitle: "卡士達醬保存期限｜FDA 冷藏 3-4 天、冷凍可行性分析",
+    excerpt:
+      "自己熬的卡士達醬冰箱能放幾天？答案是 FDA 的 3–4 天原則。但有幾個細節決定你能不能真的放到 4 天——包裝方式、製程衛生、冷藏位置都是關鍵。",
+    metaDescription:
+      "FDA 建議卡士達醬冷藏 4°C 保存 3–4 天，冷凍可延長至 3 個月但質地會改變。本文整理製程衛生、容器選擇、表面貼膜技巧，與失敗徵兆的判別。",
+    date: "2026-01-14",
+    category: "storage",
+    categoryName: "保存技巧",
+    tags: ["卡士達", "醬料保存", "蛋奶製品", "泡芙"],
+    image:
+      "https://images.unsplash.com/photo-1758221617316-1fa0fab44324?w=1600&q=80&auto=format&fit=crop",
+    imageAlt: "近距離拍攝金黃色的奶餡與層次分明的酥皮",
+    readingTime: 5,
+    author: "棋美點心屋編輯室",
+    toc: [
+      { id: "fda-rule", label: "FDA 的 3–4 天原則" },
+      { id: "why-limited", label: "為什麼卡士達特別容易壞" },
+      { id: "packaging", label: "包裝：貼膜技巧決定期限" },
+      { id: "freezing", label: "冷凍可行嗎？" },
+      { id: "spoilage-signs", label: "壞掉的徵兆" },
+    ],
+    relatedProducts: [
+      {
+        title: "食品級密封保鮮盒（矮扁型）",
+        description: "表面積大易貼膜，卡士達冷藏不結皮的最佳容器。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+      {
+        title: "食品級保鮮膜（熱烘焙專用）",
+        description: "耐 120°C 熱貼膜不融化，卡士達剛煮好即刻封存的必備。",
+        link: "https://line.me/R/ti/p/@diy_chimei",
+      },
+    ],
+    faq: [
+      {
+        question: "FDA 的 3–4 天是從什麼時候起算？",
+        answer:
+          "從「製作完成並降至 4°C 冷藏起算」。若你熬完放涼 1 小時才進冷藏，這 1 小時不算在保存期內，但若放涼超過 2 小時，就落入「危險溫度區」（4–60°C），細菌指數性增殖，保存期必須從 3–4 天下修。",
+      },
+      {
+        question: "卡士達醬冷凍會壞掉嗎？",
+        answer:
+          "冷凍本身不會讓它不安全，但卡士達的澱粉與蛋黃會在冷凍時結晶分離，解凍後質地粒粒像豆腐渣，無法恢復原始滑順。若要冷凍，建議用在「再加熱應用」（如可麗露填料、麵包內餡），不適合直接使用。",
+      },
+      {
+        question: "剛煮好的卡士達要如何快速降溫？",
+        answer:
+          "兩步驟：(1) 離火後倒入較淺的不鏽鋼淺盤或冰過的鋼盆，表面立即貼保鮮膜，降低接觸空氣面積；(2) 將淺盤放入冰水浴（冰塊加冷水），攪拌 15 分鐘即可降至室溫。降溫後即刻入冷藏 4°C，整體從離火到冷藏不超過 30 分鐘。",
+      },
+    ],
+  },
+  {
     slug: "japanese-castella-cake",
     title: "日式蜂蜜 Castella 蛋糕：400 年傳統的四材料經典",
     seoTitle: "長崎 Castella 食譜｜高筋麵粉、蜂蜜、蛋糖打發與冷藏倒置",

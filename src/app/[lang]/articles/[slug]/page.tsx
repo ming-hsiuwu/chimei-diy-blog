@@ -29,6 +29,13 @@ import ClassSizeGuide from "./content/zh/small-vs-large-class";
 import PastryLegalGuide from "./content/zh/pastry-studio-legal-setup";
 import BreadFreezingGuide from "./content/zh/bread-freezing-guide";
 import StandMixerGuide from "./content/zh/stand-mixer-guide";
+import MacaronStorageGuide from "./content/zh/meringue-macaron-storage";
+import CroissantsGuide from "./content/zh/homemade-croissants";
+import BakingPanMaterialsGuide from "./content/zh/baking-pan-materials";
+import WhippingCreamGuide from "./content/zh/whipping-cream-animal-vs-vegetable";
+import BakingClassPickGuide from "./content/zh/how-to-pick-baking-class";
+import CommercialKitchenGuide from "./content/zh/home-to-commercial-kitchen";
+import CustardStorageGuide from "./content/zh/custard-cream-storage";
 
 const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "how-to-choose-flour-for-beginners": FlourGuide,
@@ -43,6 +50,13 @@ const ZH_CONTENT: Record<string, () => React.ReactElement> = {
   "pastry-studio-legal-setup": PastryLegalGuide,
   "bread-freezing-guide": BreadFreezingGuide,
   "stand-mixer-guide": StandMixerGuide,
+  "meringue-macaron-storage": MacaronStorageGuide,
+  "homemade-croissants": CroissantsGuide,
+  "baking-pan-materials": BakingPanMaterialsGuide,
+  "whipping-cream-animal-vs-vegetable": WhippingCreamGuide,
+  "how-to-pick-baking-class": BakingClassPickGuide,
+  "home-to-commercial-kitchen": CommercialKitchenGuide,
+  "custard-cream-storage": CustardStorageGuide,
 };
 
 export function generateStaticParams() {
