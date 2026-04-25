@@ -2,9 +2,13 @@ import type { MetadataRoute } from "next";
 import { articles, CATEGORIES } from "@/lib/articles";
 import { SITE } from "@/lib/site";
 
+const ARTICLES_PAGE_SIZE = 12;
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const base = SITE.url;
   const now = new Date();
+
+  const totalArticlePages = Math.ceil(articles.length / ARTICLES_PAGE_SIZE);
 
   const staticEntries: MetadataRoute.Sitemap = [
     {
@@ -27,6 +31,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
   ];
 
+  const articlePagedEntries: MetadataRoute.Sitemap = [];
+  for (let p = 2; p <= totalArticlePages; p++) {
+    articlePagedEntries.push({
+      url: `${base}/zh/articles/page/${p}`,
+      lastModified: now,
+      changeFrequency: "weekly",
+      priority: 0.7,
+    });
+  }
+
   const categoryEntries: MetadataRoute.Sitemap = Object.keys(CATEGORIES).map(
     (slug) => ({
       url: `${base}/zh/categories/${slug}`,
@@ -43,5 +57,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticEntries, ...categoryEntries, ...articleEntries];
+  return [
+    ...staticEntries,
+    ...articlePagedEntries,
+    ...categoryEntries,
+    ...articleEntries,
+  ];
 }
