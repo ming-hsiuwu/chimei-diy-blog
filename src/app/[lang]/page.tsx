@@ -73,7 +73,7 @@ export default async function HomePage({
             最新文章
           </h2>
           <Link
-            href={`/${lang}/categories/recipes`}
+            href={`/${lang}/articles`}
             className="text-sm text-brand hover:text-brand-700"
           >
             查看全部 →
